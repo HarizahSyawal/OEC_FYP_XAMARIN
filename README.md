@@ -1,1 +1,1 @@
-# OEC_FYP_XAMARIN
+# This project is a final year project which is one of the requirements for graduates from universities, where this application aims to provide services for prospective students to conduct consultations related to the campus they want to register, besides that there are personality test features and news about educational events and others.
