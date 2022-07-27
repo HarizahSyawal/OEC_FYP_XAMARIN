@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms" 
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    xmlns:dxe="clr-namespace:DevExpress.XamarinForms.Editors;assembly=DevExpress.XamarinForms.Editors"
+                    xmlns:dxn="clr-namespace:DevExpress.XamarinForms.Navigation;assembly=DevExpress.XamarinForms.Navigation"
+                    xmlns:dxg="clr-namespace:DevExpress.XamarinForms.DataGrid;assembly=DevExpress.XamarinForms.Grid"
+                    xmlns:xct="clr-namespace:Xamarin.CommunityToolkit.UI.Views;assembly=Xamarin.CommunityToolkit"
+                    
+                    x:Class="AIO.IDOS3.Client.Mobile.Themes.LightTheme">
+
+    <Color x:Key="StatusBarColor">#ffffff</Color>
+    <Color x:Key="NavigationBarColor">#ffffff</Color>
+    <Color x:Key="PageBackgroundColor">#ffffff</Color>
+
+    <Color x:Key="AccentColor">#007bc1</Color>
+    <Color x:Key="AccentForegroundColor">#ffffff</Color>
+
+    <Color x:Key="TitleTextColor">#333</Color>
+    <Color x:Key="LineColor">#ddd</Color>
+
+    <Color x:Key="BackgroundThemeColor">#ffffff</Color>
+    <Color x:Key="GridBorderColor">#ebebeb</Color>
+    <Color x:Key="GridCellLinesColor">#ebebeb</Color>
+
+    <Color x:Key="GridAdvancedLayoutRowBorderColor">#B6BAC1</Color>
+
+    <Color x:Key="GridCustomAppearanceOddRowBackgroundColor">#F7F7F7</Color>
+    <Color x:Key="GridCustomAppearanceFontColor">#55575C</Color>
+    <Color x:Key="GridCustomAppearancePositiveFontColor">#00AE00</Color>
+    <Color x:Key="GridCustomAppearanceNegativeFontColor">#FF5458</Color>
+
+    <Color x:Key="TabItemBackgroundColor">#f9f9f9</Color>
+    <Color x:Key="MainPageBackgroundColor">#e8e8e8</Color>
+    <Color x:Key="TabItemBorderColor">#ebebeb</Color>
+    <Color x:Key="TextThemeColor">#404144</Color>
+    <Color x:Key="TextButtonColor">#2188ff</Color>
+    <Color x:Key="TitleIconColor">#7c8086</Color>
+    <Color x:Key="DemoIconColor">#1aa0f8</Color>
+    <Color x:Key="SecondElementsColor">#2188ff</Color>
+
+    <Color x:Key="SecondaryTextColor">#959aa0</Color>
+
+    <Color x:Key="NavigationTextColor">#007bc1</Color>
+    <Color x:Key="PhoneListTabTextColor">#55575c</Color>
+    <Color x:Key="PhoneListTabIconColor">#7c8086</Color>
+
+    <Color x:Key="TabViewCompaniesIconColor">#c0c0c2</Color>
+    <Color x:Key="TabViewHeaderBackgroundColor">#2088ff</Color>
+    <Color x:Key="TabViewItemTextColor">#cee0ff</Color>
+    <Color x:Key="TabViewItemSelectedBackgroundColor">#4a9fff</Color>
+    <Color x:Key="TabViewIndicatorColor">#ffffff</Color>
+    <Color x:Key="TabViewPhoneListShadowColor">#dfe5ed</Color>
+
+    <Color x:Key="PhoneThemeColor">#959aa0</Color>
+
+    <Color x:Key="DrawerTopPanelBackgroundColor">#ffffff</Color>
+    <Color x:Key="DrawerTopPanelFontColor">#65696e</Color>
+    <Color x:Key="DrawerTopPanelBorderColor">#dfe5ed</Color>
+    <Color x:Key="DrawerBackGroundColor">#ffffff</Color>
+    <Color x:Key="DrawerGrayFontColor">#959aa0</Color>
+    <Color x:Key="DrawerScrimColor">#A0000000</Color>
+
+    <Color x:Key="EditorSettingsSeparatorColor">#EBEBEB</Color>
+    <Color x:Key="EditorSettingsTextColor">#de000000</Color>
+
+    <Color x:Key="NestedTabViewSeparatorColor">#ebebeb</Color>
+    <Color x:Key="NestedTabViewFavoriteColor">#de6d6f</Color>
+    <Color x:Key="NestedTabViewCartColor">#27b24f</Color>
+    <Color x:Key="DrawerSettingsSeparatorColor">#dfe5ed</Color>
+    <Color x:Key="ReminderButtonBackgroundColor">#2088FF</Color>
+
+    <Color x:Key="AvatarBorderColor">#d7dce4</Color>
+
+    <Color x:Key="TabPageHeaderBackgroundColor">#ffffff</Color>
+    <Color x:Key="TabPageHeaderShadowColor">#dfe5ed</Color>
+    <Color x:Key="TabPageDetailIconColor">#9ba0a7</Color>
+    <Color x:Key="TabPageFavoriteColor">#ffaa24</Color>
+    <Color x:Key="TabPageSeparatorColor">#d7dce4</Color>
+    <Color x:Key="TabPageHeaderSelectedBackgroundColor">#deedff</Color>
+
+    <Color x:Key="SliderMaximumTrackColor-iOS">#dfe0e2</Color>
+
+
+
+
+
+    <Style TargetType="xct:Expander">
+        <Setter Property="ExpandAnimationLength" Value="0"/>
+        <Setter Property="CollapseAnimationLength" Value="0"/>
+    </Style>
+    
+    <Color x:Key="ExpanderIconTintColor">#55575c</Color>
+
+    <!--EditBaseDefaultStyleColor-->
+    <Color x:Key="EditBaseTextColor">#333</Color>
+    <Color x:Key="EditBaseBackgroundColor">Transparent</Color>
+    <Color x:Key="EditBaseBorderColor">#ddd</Color>
+    <Color x:Key="EditBaseReadOnlyTextColor">#333</Color>
+    <Color x:Key="EditBaseReadOnlyBackgroundColor">#f7f7f7</Color>
+    <Color x:Key="EditBaseReadOnlyBorderColor">#f7f7f7</Color>
+    <Color x:Key="EditBaseDisabledTextColor">#333</Color>
+    <Color x:Key="EditBaseDisabledBackgroundColor">Transparent</Color>
+    <Color x:Key="EditBaseDisabledBorderColor">#ddd</Color>
+
+
+
+    <Style TargetType="NavigationPage">
+        <Setter Property="BarBackgroundColor" Value="{StaticResource NavigationBarColor}"/>
+        <Setter Property="BarTextColor" Value="#55575c"/>
+    </Style>
+
+    <Style TargetType="Label">
+        <Setter Property="FontFamily" Value="Roboto"/>
+        <Setter Property="FontSize" Value="14"/>
+    </Style>
+
+    <Style TargetType="ActivityIndicator">
+        <Setter Property="WidthRequest" Value="72"/>
+        <Setter Property="HeightRequest" Value="72"/>
+        <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+        <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
+        <Setter Property="Color" Value="#c02833"/>
+    </Style>
+
+
+    <Style x:Key="LinkLabel" TargetType="Label">
+        <Setter Property="FontFamily" Value="Roboto-Medium"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextDecorations" Value="Underline"/>
+    </Style>
+    
+    <Style x:Key="NavigationBarTitle" TargetType="Label">
+        <Setter Property="HorizontalOptions" Value="StartAndExpand"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="Margin" Value="0,-4,0,0"/>
+        <Setter Property="FontFamily" Value="Roboto-Medium"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="LineBreakMode" Value="TailTruncation"/>
+        <Setter Property="TextColor" Value="{StaticResource TitleTextColor}"/>
+    </Style>
+
+    <Style x:Key="NavigationBarBackButton" TargetType="dxe:SimpleButton">
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="WidthRequest" Value="32"/>
+        <Setter Property="HeightRequest" Value="32"/>
+        <Setter Property="Padding" Value="0,4,4,4"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="Icon" Value="icon_back_24dp"/>
+        <Setter Property="IconColor" Value="{StaticResource TitleTextColor}"/>
+        <Setter Property="PressedBackgroundColor" Value="Transparent"/>
+        <Setter Property="PressedIconColor" Value="{StaticResource TitleTextColor}"/>
+    </Style>
+    
+    <Style x:Key="NavigationBarIconButton" TargetType="dxe:SimpleButton">
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+        <Setter Property="WidthRequest" Value="32"/>
+        <Setter Property="HeightRequest" Value="32"/>        
+        <Setter Property="Padding" Value="4"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="IconColor" Value="{StaticResource TitleTextColor}"/>
+        <Setter Property="PressedBackgroundColor" Value="Transparent"/>
+        <Setter Property="PressedIconColor" Value="{StaticResource TitleTextColor}"/>
+    </Style>
+
+    <Style x:Key="FormItemLabel" TargetType="Label">
+        <Setter Property="FontFamily" Value="Roboto"/>
+        <Setter Property="FontSize" Value="14"/>
+    </Style>
+
+    <Style x:Key="FormItemGroupLabel" TargetType="Label">
+        <Setter Property="FontFamily" Value="Roboto-Bold"/>
+        <Setter Property="FontSize" Value="18"/>
+    </Style>
+
+    <Style x:Key="IconButton24dp" TargetType="dxe:SimpleButton">
+        <Setter Property="WidthRequest" Value="24"/>
+        <Setter Property="HeightRequest" Value="24"/>
+        <Setter Property="Padding" Value="0"/>
+        <Setter Property="IconColor" Value="{StaticResource AccentColor}"/>
+        <Setter Property="TextColor" Value="{StaticResource AccentColor}"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="DisabledBackgroundColor" Value="Transparent"/>
+        <Setter Property="DisabledIconColor" Value="{StaticResource EditBaseDisabledBorderColor}"/>
+        <Setter Property="DisabledTextColor" Value="{StaticResource EditBaseDisabledBorderColor}"/>
+        <Setter Property="PressedBackgroundColor" Value="Transparent"/>
+        <Setter Property="PressedIconColor" Value="{StaticResource AccentColor}"/>
+        <Setter Property="PressedTextColor" Value="{StaticResource AccentColor}"/>
+    </Style>
+
+    <Style x:Key="CameraIconButton32dp" TargetType="dxe:SimpleButton">
+        <Setter Property="WidthRequest" Value="32"/>
+        <Setter Property="HeightRequest" Value="32"/>
+        <Setter Property="Padding" Value="5,6,6,4"/>
+        <Setter Property="IconColor" Value="{StaticResource AccentColor}"/>
+        <Setter Property="BackgroundColor" Value="White"/>
+        <Setter Property="Icon" Value="icon_camera_24dp"/>
+        <Setter Property="Text" Value=""/>
+        <Setter Property="ShowShadow" Value="True"/>
+    </Style>
+
+    <Style x:Key="TextButton" TargetType="dxe:SimpleButton">
+        <Setter Property="Padding" Value="4"/>
+        <Setter Property="FontFamily" Value="Roboto-Medium"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="IconColor" Value="{StaticResource AccentColor}"/>
+        <Setter Property="TextColor" Value="{StaticResource AccentColor}"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+        <Setter Property="PressedBackgroundColor" Value="Transparent"/>
+    </Style>
+
+    <Style x:Key="DropDownButton" TargetType="dxe:ComboBoxEdit">
+        <Setter Property="BoxPadding" Value="4"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="FocusedBorderThickness" Value="0"/>
+        <Setter Property="DisabledBorderThickness" Value="0"/>
+        <Setter Property="ClearIconVisibility" Value="Auto"/>
+        <Setter Property="CornerMode" Value="Round"/>
+        <Setter Property="CornerRadius" Value="4"/>
+        <Setter Property="TextFontFamily" Value="Roboto-Medium"/>
+        <Setter Property="TextFontSize" Value="14"/>
+        <Setter Property="IconColor" Value="{StaticResource AccentForegroundColor}"/>
+        <Setter Property="TextColor" Value="{StaticResource AccentForegroundColor}"/>
+        <Setter Property="BackgroundColor" Value="{StaticResource AccentColor}"/>
+        <Setter Property="PlaceholderColor" Value="{StaticResource AccentForegroundColor}"/>
+    </Style>
+
+
+    <Style x:Key="TextEditDefaultStyle" TargetType="dxe:TextEdit">
+        <Setter Property="BoxMode" Value="Filled"/>
+        <Setter Property="CornerMode" Value="Round"/>
+        <Setter Property="CornerRadius" Value="4"/>
+        <Setter Property="TextFontFamily" Value="Roboto"/>
+        <Setter Property="TextFontSize" Value="14"/>
+        <Setter Property="TextColor" Value="{StaticResource EditBaseTextColor}"/>
+        <Setter Property="BackgroundColor" Value="{StaticResource EditBaseBackgroundColor}"/>
+        <Setter Property="BorderColor" Value="{StaticResource EditBaseBorderColor}"/>
+        <Setter Property="DisabledTextColor" Value="{StaticResource EditBaseDisabledTextColor}"/>
+        <Setter Property="DisabledBackgroundColor" Value="{StaticResource EditBaseDisabledBackgroundColor}"/>
+        <Setter Property="DisabledBorderColor" Value="{StaticResource EditBaseDisabledBorderColor}"/>
+        <Setter Property="DisabledBorderThickness" Value="1"/>
+    </Style>
+
+    <Style x:Key="NumericEditDefaultStyle" TargetType="dxe:NumericEdit">
+        <Setter Property="BoxMode" Value="Filled"/>
+        <Setter Property="CornerMode" Value="Round"/>
+        <Setter Property="CornerRadius" Value="4"/>
+        <Setter Property="TextFontFamily" Value="Roboto"/>
+        <Setter Property="TextFontSize" Value="14"/>
+        <Setter Property="TextColor" Value="{StaticResource EditBaseTextColor}"/>
+        <Setter Property="BackgroundColor" Value="{StaticResource EditBaseBackgroundColor}"/>
+        <Setter Property="BorderColor" Value="{StaticResource EditBaseBorderColor}"/>
+        <Setter Property="DisabledTextColor" Value="{StaticResource EditBaseDisabledTextColor}"/>
+        <Setter Property="DisabledBackgroundColor" Value="{StaticResource EditBaseDisabledBackgroundColor}"/>
+        <Setter Property="DisabledBorderColor" Value="{StaticResource EditBaseDisabledBorderColor}"/>
+        <Setter Property="DisabledBorderThickness" Value="1"/>
+    </Style>
+
+    <Style x:Key="DateEditDefaultStyle" TargetType="dxe:DateEdit">
+        <Setter Property="BoxMode" Value="Filled"/>
+        <Setter Property="CornerMode" Value="Round"/>
+        <Setter Property="CornerRadius" Value="4"/>
+        <Setter Property="TextFontFamily" Value="Roboto"/>
+        <Setter Property="TextFontSize" Value="14"/>
+        <Setter Property="TextColor" Value="{StaticResource EditBaseTextColor}"/>
+        <Setter Property="BackgroundColor" Value="{StaticResource EditBaseBackgroundColor}"/>
+        <Setter Property="BorderColor" Value="{StaticResource EditBaseBorderColor}"/>
+        <Setter Property="DisabledTextColor" Value="{StaticResource EditBaseDisabledTextColor}"/>
+        <Setter Property="DisabledBackgroundColor" Value="{StaticResource EditBaseDisabledBackgroundColor}"/>
+        <Setter Property="DisabledBorderColor" Value="{StaticResource EditBaseDisabledBorderColor}"/>
+        <Setter Property="DisabledBorderThickness" Value="1"/>
+    </Style>
+
+    <Style x:Key="ComboBoxEditDefaultStyle" TargetType="dxe:ComboBoxEdit">
+        <Setter Property="BoxMode" Value="Filled"/>
+        <Setter Property="CornerMode" Value="Round"/>
+        <Setter Property="CornerRadius" Value="4"/>
+        <Setter Property="TextFontFamily" Value="Roboto"/>
+        <Setter Property="TextFontSize" Value="14"/>
+        <Setter Property="TextColor" Value="{StaticResource EditBaseTextColor}"/>
+        <Setter Property="BackgroundColor" Value="{StaticResource EditBaseBackgroundColor}"/>
+        <Setter Property="BorderColor" Value="{StaticResource EditBaseBorderColor}"/>
+        <Setter Property="DisabledTextColor" Value="{StaticResource EditBaseDisabledTextColor}"/>
+        <Setter Property="DisabledBackgroundColor" Value="{StaticResource EditBaseDisabledBackgroundColor}"/>
+        <Setter Property="DisabledBorderColor" Value="{StaticResource EditBaseDisabledBorderColor}"/>
+        <Setter Property="DisabledBorderThickness" Value="1"/>
+    </Style>
+
+    <Style x:Key="SimpleButtonDefaultStyle" TargetType="dxe:SimpleButton">
+        <Setter Property="CornerMode" Value="Round"/>
+        <Setter Property="CornerRadius" Value="4"/>
+        <Setter Property="FontFamily" Value="Roboto"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="Padding" Value="12"/>
+        <Setter Property="IconColor" Value="{StaticResource AccentForegroundColor}"/>
+        <Setter Property="TextColor" Value="{StaticResource AccentForegroundColor}"/>
+        <Setter Property="BackgroundColor" Value="{StaticResource AccentColor}"/>
+    </Style>
+
+    <Style x:Key="MainTabPageDefaultStyle" TargetType="dxn:TabPage">
+        <Setter Property="ItemHeaderIconColor" Value="#55575c"/>
+        <Setter Property="ItemHeaderTextColor" Value="#55575c"/>
+        <Setter Property="HeaderPanelBackgroundColor" Value="{StaticResource TabPageHeaderBackgroundColor}"/>
+        <Setter Property="HeaderPanelShadowColor" Value="{StaticResource TabPageHeaderShadowColor}"/>
+
+        <Setter Property="SelectedItemHeaderIconColor" Value="{StaticResource AccentColor}"/>
+        <Setter Property="SelectedItemHeaderTextColor" Value="{StaticResource AccentColor}"/>
+        <Setter Property="SelectedItemHeaderBackgroundColor" Value="{StaticResource TabPageHeaderSelectedBackgroundColor}"/>
+
+        <Setter Property="ItemHeaderWidth" Value="*"/>
+        <Setter Property="IsSelectedItemIndicatorVisible" Value="False"/>
+        <Setter Property="SwipeEnabled" Value="False"/>
+        <Setter Property="ItemHeaderPadding" Value="0"/>
+        <Setter Property="ItemHeaderIconSpacing" Value="0"/>
+        <Setter Property="HeaderPanelShadowHeight" Value="1"/>
+        <Setter Property="HeaderPanelShadowRadius" Value="0"/>
+        <Setter Property="ItemHeaderFontSize" Value="14"/>
+    </Style>
+
+    <Style x:Key="TabPageDefaultStyle" TargetType="dxn:TabPage">
+        <Setter Property="ItemHeaderIconColor" Value="#55575c"/>
+        <Setter Property="ItemHeaderTextColor" Value="#55575c"/>
+        <Setter Property="HeaderPanelBackgroundColor" Value="Transparent"/>
+        <Setter Property="HeaderPanelShadowColor" Value="{StaticResource TabPageHeaderShadowColor}"/>
+
+        <Setter Property="SelectedItemHeaderIconColor" Value="{StaticResource AccentColor}"/>
+        <Setter Property="SelectedItemHeaderTextColor" Value="{StaticResource AccentColor}"/>
+        <Setter Property="SelectedItemHeaderBackgroundColor" Value="Transparent"/>
+        <Setter Property="SelectedItemIndicatorColor" Value="{StaticResource AccentColor}"/>
+        <Setter Property="SelectedItemIndicatorHeight" Value="4"/>
+
+        <Setter Property="ItemHeaderWidth" Value="*"/>
+        <Setter Property="IsSelectedItemIndicatorVisible" Value="True"/>
+        <Setter Property="SwipeEnabled" Value="False"/>
+        <Setter Property="ItemHeaderPadding" Value="0"/>
+        <Setter Property="ItemHeaderIconSpacing" Value="0"/>
+        <Setter Property="HeaderPanelShadowHeight" Value="1"/>
+        <Setter Property="HeaderPanelShadowRadius" Value="0"/>
+        <Setter Property="ItemHeaderFontFamily" Value="Roboto-Bold"/>
+        <Setter Property="ItemHeaderFontSize" Value="14"/>
+    </Style>
+
+    <Style x:Key="MainTabViewDefaultStyle" TargetType="dxn:TabView">
+        <Setter Property="ItemHeaderIconColor" Value="#55575c"/>
+        <Setter Property="ItemHeaderTextColor" Value="#55575c"/>
+        <Setter Property="HeaderPanelBackgroundColor" Value="{StaticResource TabPageHeaderBackgroundColor}"/>
+        <Setter Property="HeaderPanelShadowColor" Value="{StaticResource TabPageHeaderShadowColor}"/>
+
+        <Setter Property="SelectedItemHeaderIconColor" Value="{StaticResource AccentColor}"/>
+        <Setter Property="SelectedItemHeaderTextColor" Value="{StaticResource AccentColor}"/>
+        <Setter Property="SelectedItemHeaderBackgroundColor" Value="{StaticResource TabPageHeaderSelectedBackgroundColor}"/>
+
+        <Setter Property="ItemHeaderWidth" Value="*"/>
+        <Setter Property="IsSelectedItemIndicatorVisible" Value="False"/>
+        <Setter Property="SwipeEnabled" Value="False"/>
+        <Setter Property="ItemHeaderPadding" Value="0"/>
+        <Setter Property="ItemHeaderIconSpacing" Value="0"/>
+        <Setter Property="HeaderPanelShadowHeight" Value="1"/>
+        <Setter Property="HeaderPanelShadowRadius" Value="0"/>
+        <Setter Property="ItemHeaderFontSize" Value="14"/>
+    </Style>
+
+    <Style x:Key="TabViewDefaultStyle" TargetType="dxn:TabView">
+        <Setter Property="ItemHeaderIconColor" Value="#55575c"/>
+        <Setter Property="ItemHeaderTextColor" Value="#55575c"/>
+        <Setter Property="HeaderPanelBackgroundColor" Value="Transparent"/>
+        <Setter Property="HeaderPanelShadowColor" Value="{StaticResource TabPageHeaderShadowColor}"/>
+
+        <Setter Property="SelectedItemHeaderIconColor" Value="{StaticResource AccentColor}"/>
+        <Setter Property="SelectedItemHeaderTextColor" Value="{StaticResource AccentColor}"/>
+        <Setter Property="SelectedItemHeaderBackgroundColor" Value="Transparent"/>
+        <Setter Property="SelectedItemIndicatorColor" Value="{StaticResource AccentColor}"/>
+        <Setter Property="SelectedItemIndicatorHeight" Value="4"/>
+
+        <Setter Property="ItemHeaderWidth" Value="*"/>
+        <Setter Property="IsSelectedItemIndicatorVisible" Value="True"/>
+        <Setter Property="SwipeEnabled" Value="False"/>
+        <Setter Property="ItemHeaderPadding" Value="0"/>
+        <Setter Property="ItemHeaderIconSpacing" Value="0"/>
+        <Setter Property="HeaderPanelShadowHeight" Value="1"/>
+        <Setter Property="HeaderPanelShadowRadius" Value="0"/>
+        <Setter Property="ItemHeaderFontFamily" Value="Roboto-Bold"/>
+        <Setter Property="ItemHeaderFontSize" Value="14"/>
+    </Style>
+
+    <Style x:Key="DataGridViewDefaultStyle" TargetType="dxg:DataGridView">
+
+    </Style>
+
+</ResourceDictionary>
+    

@@ -1,0 +1,1 @@
+<resources><style name="MainTheme" parent="MainTheme.Base"><item name="android:statusBarColor">#FFFFFF</item><item name="android:windowLightStatusBar">true</item><item name="android:navigationBarColor">#88888888</item></style></resources>

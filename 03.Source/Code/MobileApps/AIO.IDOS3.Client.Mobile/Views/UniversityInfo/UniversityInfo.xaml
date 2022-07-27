@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:ViewBase
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:prism="http://prismlibrary.com"    
+    xmlns:xfs="clr-namespace:XFShimmerLayout.Controls;assembly=XFShimmerLayout"
+    xmlns:dxe="clr-namespace:DevExpress.XamarinForms.Editors;assembly=DevExpress.XamarinForms.Editors"   
+    xmlns:sh="http://sharpnado.com"
+    xmlns:views="clr-namespace:AIO.IDOS3.Client.Mobile.Views"
+    xmlns:viewModels="clr-namespace:AIO.IDOS3.Client.Mobile.ViewModels"
+    xmlns:models="clr-namespace:AIO.IDOS3.Client.Mobile.Models" 
+    x:Class="AIO.IDOS3.Client.Mobile.Views.UniversityInfo"
+    x:TypeArguments="viewModels:UniversityInfoViewModel"
+    x:DataType="viewModels:UniversityInfoViewModel"
+    prism:ViewModelLocator.AutowireViewModel="True"
+    NavigationPage.HasNavigationBar="False"
+    BackgroundColor="{StaticResource PageBackgroundColor}">
+
+  <ContentView.Resources>
+        <DataTemplate x:Key="DataRowTemplate">
+            <ViewCell>
+                <sh:Shadows CornerRadius="4">
+                    <sh:Shadows.Shades>
+                        <sh:ImmutableShades>
+                            <sh:Shade BlurRadius="3" Opacity="1" Offset="3,3" Color="#e4e4e4"/>
+                            <sh:Shade BlurRadius="0" Opacity="1" Offset="-1,-1" Color="#eeeeee"/>
+                        </sh:ImmutableShades>
+                    </sh:Shadows.Shades>
+                    <Frame x:DataType="models:ApplyUniversitiesModel" Margin="12,12,12,12" Padding="0,0,0,0" BackgroundColor="White" CornerRadius="4">
+                        <xfs:ShimmerLayout Angle="-45" GradientSize=".2" BackgroundGradientColor="#e0e0e0" ForegroundGradientColor="#f0f0f0" IsLoading="{Binding Source={RelativeSource AncestorType={x:Type viewModels:ApplyUniversitiesViewModel}}, Path=IsRefreshing}">
+
+                            <Grid ColumnSpacing="12">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="44"/>
+                                    <RowDefinition Height="24"/>
+                                    <RowDefinition Height="44"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="150"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="60"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Grid.Row="0" Grid.Column="1" Grid.RowSpan="3" Margin="0,0,0,-1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                                       WidthRequest="300">
+
+                                </Label>
+                                <Image Grid.Row="0" Grid.Column="0" Grid.RowSpan="3" Margin="0,0,0,-1" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                                                     Aspect="AspectFill"   
+                                                     BackgroundColor="WhiteSmoke"
+                                                     Source="https://www.easyuni.co.id/media/institution/photo/2017/08/30/5.jpg.600x400_q85.jpg"/>
+
+                                <BoxView Grid.Row="0" Grid.Column="0" Grid.RowSpan="3" Margin="0,0,0,-5" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+
+                                <Label Grid.Row="0" Grid.Column="1" LineBreakMode="TailTruncation" Margin="0,12,0,0" Text="Universiti Teknologi Malaysia" FontFamily="Roboto-Bold"/>
+                                <Label Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" LineBreakMode="TailTruncation" Margin="0,0,12,0" Text="UTM"/>
+                                <Label Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3" LineBreakMode="WordWrap" Margin="0,0,12,12" Text="Skudai, Johor Bahru" FontSize="12"/>
+
+                            </Grid>
+                        </xfs:ShimmerLayout>
+                    </Frame>
+                </sh:Shadows>
+            </ViewCell>
+        </DataTemplate>
+    </ContentView.Resources>
+
+    <AbsoluteLayout>
+
+        <StackLayout AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+
+            <Grid ColumnSpacing="12">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label Grid.Row="0" Grid.Column="0" Margin="12,12,0,0" FontSize="30" Text="Universities" FontFamily="Roboto-Medium"/>
+
+                <dxe:TextEdit Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" Margin="12,0,12,12" HorizontalOptions="FillAndExpand" Style="{StaticResource TextEditDefaultStyle}"
+                              WidthRequest="3000"
+                              StartIcon="icon_search_24dp"
+                              PlaceholderText="University Name"
+                              TextChangedCommand="{Binding}"/>
+
+                <ListView Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Margin="0,0,0,0" x:Name="listView"
+                          CachingStrategy="RecycleElementAndDataTemplate"
+                          SelectionMode="Single"
+                          SeparatorVisibility="None"
+                          HasUnevenRows="True"
+                          IsPullToRefreshEnabled="True"
+                          RefreshControlColor="{StaticResource AccentColor}"
+                          ItemsSource="{Binding Model.ListUniversities}"
+                          RefreshCommand="{Binding PerformRefreshDataCommand}"
+                          IsRefreshing="{Binding IsRefreshing}"
+                          ItemTemplate="{StaticResource Key=DataRowTemplate}">
+                    <ListView.Triggers>
+                        <DataTrigger TargetType="ListView" Binding="{Binding IsRefreshing}" Value="True">
+                            <Setter Property="IsEnabled" Value="False"/>
+                        </DataTrigger>
+                    </ListView.Triggers>
+                </ListView>
+            </Grid>
+
+        </StackLayout>
+
+        <!--<views:LoadingPanelView AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" IsVisible="{Binding IsBusy}"/>-->
+
+    </AbsoluteLayout>
+    
+
+</views:ViewBase>

@@ -1,0 +1,277 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  
+  <ItemGroup>    
+    <EmbeddedResource Include="..\AIO.IDOS3.Client.Mobile\Assets\Fonts\Roboto-300.ttf" Link="Assets\Roboto-300.ttf" />
+    <EmbeddedResource Include="..\AIO.IDOS3.Client.Mobile\Assets\Fonts\Roboto-400.ttf" Link="Assets\Roboto-400.ttf" />
+    <EmbeddedResource Include="..\AIO.IDOS3.Client.Mobile\Assets\Fonts\Roboto-500.ttf" Link="Assets\Roboto-500.ttf" />
+    <EmbeddedResource Include="..\AIO.IDOS3.Client.Mobile\Assets\Fonts\Roboto-700.ttf" Link="Assets\Roboto-700.ttf" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Birdie.MediaPlugin" Version="1.0.0" />
+    <PackageReference Include="CardsView" Version="2.6.3" />
+    <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie" Version="3.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.OData" Version="7.4.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.8" />
+    <PackageReference Include="Microsoft.OData.Client" Version="7.7.1" />
+    <PackageReference Include="Microsoft.OData.Core" Version="7.7.1" />
+    <PackageReference Include="Microsoft.OData.Edm" Version="7.7.1" />
+    <PackageReference Include="Microsoft.Spatial" Version="7.7.1" />
+    <PackageReference Include="NETStandard.Library" Version="2.0.3" />
+    <PackageReference Include="Plugin.CrossPlatformTintedImage" Version="1.0.0" />
+    <PackageReference Include="Prism.DryIoc.Extensions" Version="7.2.0.1054" />
+    <PackageReference Include="Shiny.BluetoothLE" Version="1.2.0.1755-beta" />
+    <PackageReference Include="Shiny.Locations" Version="1.2.0.1755" />
+    <PackageReference Include="Shiny.Notifications" Version="1.2.0.1755" />
+    <PackageReference Include="Shiny.Prism" Version="7.2.0.1054" />
+    <PackageReference Include="System.ServiceModel.Duplex" Version="4.7.0" />
+    <PackageReference Include="System.ServiceModel.Http" Version="4.7.0" />
+    <PackageReference Include="System.ServiceModel.NetTcp" Version="4.7.0" />
+    <PackageReference Include="System.ServiceModel.Security" Version="4.7.0" />
+    <PackageReference Include="System.Spatial" Version="5.8.4" />
+    <PackageReference Include="System.Text.Json" Version="4.7.2" />
+    <PackageReference Include="Xamarin.Essentials.Interfaces" Version="1.5.3.2" />
+    <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.11.982" />
+    <PackageReference Include="Xamarin.Forms" Version="4.8.0.1364" />  
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />  
+    <PackageReference Include="Xamarin.Forms.Maps" Version="4.8.0.1364" />  
+    <PackageReference Include="XFShimmerLayout" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Themes\DarkTheme.xaml.cs" Link="Themes\DarkTheme.xaml.cs">
+      <DependentUpon>DarkTheme.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\Call\CustomerCallPage.xaml.cs" Link="Views\Call\CustomerCallPage.xaml.cs">
+      <DependentUpon>CustomerCallPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\Call\CustomerCallSummaryView.xaml.cs" Link="Views\Call\CustomerCallSummaryView.xaml.cs">
+      <DependentUpon>CustomerCallSummaryView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\Call\EditMerchandiseDisplayActivityView.xaml.cs" Link="Views\Call\EditMerchandiseDisplayActivityView.xaml.cs">
+      <DependentUpon>EditMerchandiseDisplayActivityView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\Call\EditPromotionalMaterialActivityView.xaml.cs" Link="Views\Call\EditPromotionalMaterialActivityView.xaml.cs">
+      <DependentUpon>EditPromotionalMaterialActivityView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\Customer\EditNewCustomerAddressInfoView.xaml.cs" Link="Views\Customer\EditNewCustomerAddressInfoView.xaml.cs">
+      <DependentUpon>EditNewCustomerAddressInfoView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\Customer\EditNewCustomerGeneralInfoView.xaml.cs" Link="Views\Customer\EditNewCustomerGeneralInfoView.xaml.cs">
+      <DependentUpon>EditNewCustomerGeneralInfoView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\Customer\EditNewCustomerRoutePlanView.xaml.cs" Link="Views\Customer\EditNewCustomerRoutePlanView.xaml.cs">
+      <DependentUpon>EditNewCustomerRoutePlanView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\Customer\EditNewCustomerTaxInfoView.xaml.cs" Link="Views\Customer\EditNewCustomerTaxInfoView.xaml.cs">
+      <DependentUpon>EditNewCustomerTaxInfoView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\Giro\EditGiroPage.xaml.cs" Link="Views\Giro\EditGiroPage.xaml.cs">
+      <DependentUpon>EditGiroPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\Giro\GirosPage.xaml.cs" Link="Views\Giro\GirosPage.xaml.cs">
+      <DependentUpon>GirosPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\Home\DashboardView.xaml.cs" Link="Views\Home\DashboardView.xaml.cs">
+      <DependentUpon>DashboardView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\Invoice\InvoicesView.xaml.cs" Link="Views\Invoice\InvoicesView.xaml.cs">
+      <DependentUpon>InvoicesView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\MobileActivity\MobileActivityEndOfDayPage.xaml.cs" Link="Views\MobileActivity\MobileActivityEndOfDayPage.xaml.cs">
+      <DependentUpon>MobileActivityEndOfDayPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\MobileActivity\MobileActivityStartOfDayPage.xaml.cs" Link="Views\MobileActivity\MobileActivityStartOfDayPage.xaml.cs">
+      <DependentUpon>MobileActivityStartOfDayPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\AppInitPage.xaml.cs" Link="Views\AppInitPage.xaml.cs">
+      <DependentUpon>AppInitPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\Customer\EditNewCustomerPage.xaml.cs" Link="Views\Customer\EditNewCustomerPage.xaml.cs">
+      <DependentUpon>EditNewCustomerPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\Call\EditCustomerStockRecordPage.xaml.cs" Link="Views\Call\EditCustomerStockRecordPage.xaml.cs">
+      <DependentUpon>EditCustomerStockRecordPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\Call\CustomerCallLocationView.xaml.cs" Link="Views\Call\CustomerCallLocationView.xaml.cs">
+      <DependentUpon>CustomerCallLocationView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\Account\AccountPage.xaml.cs" Link="Views\Account\AccountPage.xaml.cs">
+      <DependentUpon>AccountPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\Call\EditCustomerStockRecordDetailsDialog.xaml.cs" Link="Views\Call\EditCustomerStockRecordDetailsDialog.xaml.cs">
+      <DependentUpon>EditCustomerStockRecordDetailsDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\Call\CustomerCallCheckOutNoSalesReasonPage.xaml.cs" Link="Views\Call\CustomerCallCheckOutNoSalesReasonPage.xaml.cs">
+      <DependentUpon>CustomerCallCheckOutNoSalesReasonPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\PaymentCollection\EditPaymentCollectionAdditionalCostDialog.xaml.cs" Link="Views\PaymentCollection\EditPaymentCollectionAdditionalCostDialog.xaml.cs">
+      <DependentUpon>EditPaymentCollectionAdditionalCostDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\PaymentCollection\EditPaymentCollectionPage.xaml.cs" Link="Views\PaymentCollection\EditPaymentCollectionPage.xaml.cs">
+      <DependentUpon>EditPaymentCollectionPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\PaymentCollection\EditPaymentCollectionDetailsDialog.xaml.cs" Link="Views\PaymentCollection\EditPaymentCollectionDetailsDialog.xaml.cs">
+      <DependentUpon>EditPaymentCollectionDetailsDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\PaymentCollection\PaymentCollectionsView.xaml.cs" Link="Views\PaymentCollection\PaymentCollectionsView.xaml.cs">
+      <DependentUpon>PaymentCollectionsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\Call\EditOtherActivitiesPage.xaml.cs" Link="Views\Call\EditOtherActivitiesPage.xaml.cs">
+      <DependentUpon>EditOtherActivitiesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\Print\SelectPrinterDialog.xaml.cs" Link="Views\Print\SelectPrinterDialog.xaml.cs">
+      <DependentUpon>SelectPrinterDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\Route\NewCustomerRoutesView.xaml.cs" Link="Views\Route\NewCustomerRoutesView.xaml.cs">
+      <DependentUpon>NewCustomerRoutesView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\BillAndReceiptStatement\EditBillAndReceiptStatementPage.xaml.cs" Link="Views\BillAndReceiptStatement\EditBillAndReceiptStatementPage.xaml.cs">
+      <DependentUpon>EditBillAndReceiptStatementPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\BillAndReceiptStatement\BillAndReceiptStatementsPage.xaml.cs" Link="Views\BillAndReceiptStatement\BillAndReceiptStatementsPage.xaml.cs">
+      <DependentUpon>BillAndReceiptStatementsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\StockView\StockViewsPage.xaml.cs" Link="Views\StockView\StockViewsPage.xaml.cs">
+      <DependentUpon>StockViewsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\StockView\StockVIewsView.xaml.cs" Link="Views\StockView\StockVIewsView.xaml.cs">
+      <DependentUpon>StockViewsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\ViewBase.cs" Link="Views\ViewBase.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\PageBase.cs" Link="Views\PageBase.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\ITabbedPage.cs" Link="Views\ITabbedPage.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\TabbedPageBase.cs" Link="Views\TabbedPageBase.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\Route\RoutesPage.xaml.cs" Link="Views\Route\RoutesPage.xaml.cs">
+      <DependentUpon>RoutesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\Route\CollectionRoutesPage.xaml.cs" Link="Views\Route\CollectionRoutesPage.xaml.cs">
+      <DependentUpon>CollectionRoutesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\Route\SalesRoutesView.xaml.cs" Link="Views\Route\SalesRoutesView.xaml.cs">
+      <DependentUpon>SalesRoutesView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\SalesOrderReturn\EditSalesOrderReturnPage.xaml.cs" Link="Views\SalesOrderReturn\EditSalesOrderReturnPage.xaml.cs">
+      <DependentUpon>EditSalesOrderReturnPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\SalesOrderReturn\EditSalesOrderReturnSummaryDialog.xaml.cs" Link="Views\SalesOrderReturn\EditSalesOrderReturnSummaryDialog.xaml.cs">
+      <DependentUpon>EditSalesOrderReturnSummaryDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\SalesOrderReturn\SalesOrderReturnsView.xaml.cs" Link="Views\SalesOrderReturn\SalesOrderReturnsView.xaml.cs">
+      <DependentUpon>SalesOrderReturnsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\SalesOrderSwap\EditSalesOrderSwapPage.xaml.cs" Link="Views\SalesOrderSwap\EditSalesOrderSwapPage.xaml.cs">
+      <DependentUpon>EditSalesOrderSwapPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\SalesOrderSwap\EditSalesOrderSwapSummaryDialog.xaml.cs" Link="Views\SalesOrderSwap\EditSalesOrderSwapSummaryDialog.xaml.cs">
+      <DependentUpon>EditSalesOrderSwapSummaryDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\SalesOrderSwap\SalesOrderSwapsView.xaml.cs" Link="Views\SalesOrderSwap\SalesOrderSwapsView.xaml.cs">
+      <DependentUpon>SalesOrderSwapsView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\SalesOrder\EditSalesOrderPage.xaml.cs" Link="Views\SalesOrder\EditSalesOrderPage.xaml.cs">
+      <DependentUpon>EditSalesOrderPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\SalesOrder\EditSalesOrderSummaryDialog.xaml.cs" Link="Views\SalesOrder\EditSalesOrderSummaryDialog.xaml.cs">
+      <DependentUpon>EditSalesOrderSummaryDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\StockTransfer\EditStockTransferSummaryDialog.xaml.cs" Link="Views\StockTransfer\EditStockTransferSummaryDialog.xaml.cs">
+      <DependentUpon>EditStockTransferSummaryDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\StockTransfer\EditStockTransferPage.xaml.cs" Link="Views\StockTransfer\EditStockTransferPage.xaml.cs">
+      <DependentUpon>EditStockTransferPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\StockTransfer\StockTransfersPage.xaml.cs" Link="Views\StockTransfer\StockTransfersPage.xaml.cs">
+      <DependentUpon>StockTransfersPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\Home\HomePage.xaml.cs" Link="Views\Home\HomePage.xaml.cs">
+      <DependentUpon>HomePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\LoadingPanelView.xaml.cs" Link="Views\LoadingPanelView.xaml.cs">
+      <DependentUpon>LoadingPanelView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\SalesOrder\SalesOrdersView.xaml.cs" Link="Views\SalesOrder\SalesOrdersView.xaml.cs">
+      <DependentUpon>SalesOrdersView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\MobileActivity\MobileActivitiesView.xaml.cs" Link="Views\MobileActivity\MobileActivitiesView.xaml.cs">
+      <DependentUpon>MobileActivitiesView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\SyncPage.xaml.cs" Link="Views\SyncPage.xaml.cs">
+      <DependentUpon>SyncPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\Account\LoginPage.xaml.cs" Link="Views\Account\LoginPage.xaml.cs">
+      <DependentUpon>LoginPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\MainTabbedPage.xaml.cs" Link="Views\MainTabbedPage.xaml.cs">
+      <DependentUpon>MainTabbedPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile\Views\MainMasterDetailPage.xaml.cs" Link="Views\MainMasterDetailPage.xaml.cs">
+      <DependentUpon>MainMasterDetailPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>    
+    <Reference Include="DevExpress.XamarinForms.Core">
+      <HintPath>..\packages\DevExpress.XamarinForms.v20.2.3\binaries\DevExpress.XamarinForms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XamarinForms.Editors">
+      <HintPath>..\packages\DevExpress.XamarinForms.v20.2.3\binaries\DevExpress.XamarinForms.Editors.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XamarinForms.Grid">
+      <HintPath>..\packages\DevExpress.XamarinForms.v20.2.3\binaries\DevExpress.XamarinForms.Grid.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XamarinForms.Navigation">
+      <HintPath>..\packages\DevExpress.XamarinForms.v20.2.3\binaries\DevExpress.XamarinForms.Navigation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="..\AIO.IDOS3.Client.Mobile\Connected Services" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="..\AIO.IDOS3.Client.Mobile\Themes\LightTheme.xaml" Link="Themes\LightTheme.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="..\AIO.IDOS3.Client.Mobile\Assets\Images\" Link="Assets\Images\" />
+    <Folder Include="..\AIO.IDOS3.Client.Mobile\Connected Services\" Link="Connected Services\" />
+    <Folder Include="Assets\" />
+    <Folder Include="Properties\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\AIO.IDOS3.Mobile.Data.Entity\AIO.IDOS3.Mobile.Data.Entity.csproj" />
+    <ProjectReference Include="..\..\wismapi_packages\Wismapi.Data.Entity\Wismapi.Data.Entity.csproj" />
+    <ProjectReference Include="..\..\wismapi_packages\Wismapi.Xamarin.Utilities\Wismapi.Xamarin.Utilities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="..\AIO.IDOS3.Client.Mobile\Assets\animation_master_data_sync.json" Link="Assets\animation_master_data_sync.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

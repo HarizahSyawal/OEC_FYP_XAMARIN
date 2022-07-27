@@ -1,0 +1,75 @@
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.deps.json
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.dll
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.pdb
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Data.dll
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Utilities.dll
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Data.pdb
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Utilities.pdb
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.csproj.AssemblyReference.cache
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.AssemblyInfoInputs.cache
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.AssemblyInfo.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.csproj.CoreCompileInputs.cache
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.csproj.CopyComplete
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.dll
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.pdb
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.deps.json
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.dll
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.pdb
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Data.dll
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Utilities.dll
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Data.pdb
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Utilities.pdb
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.csproj.AssemblyReference.cache
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.AssemblyInfoInputs.cache
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.AssemblyInfo.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.csproj.CoreCompileInputs.cache
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.csproj.CopyComplete
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.dll
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.pdb
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.deps.json
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.dll
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.pdb
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Data.dll
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Utilities.dll
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Data.pdb
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Utilities.pdb
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.csproj.AssemblyReference.cache
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.AssemblyInfoInputs.cache
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.AssemblyInfo.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.csproj.CoreCompileInputs.cache
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.csproj.CopyComplete
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.dll
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.pdb
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.deps.json
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.dll
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.pdb
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Data.dll
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Utilities.dll
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Data.pdb
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/bin/Debug/netstandard2.1/Wismapi.Utilities.pdb
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.csproj.AssemblyReference.cache
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.AssemblyInfoInputs.cache
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.AssemblyInfo.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.csproj.CoreCompileInputs.cache
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.csproj.CopyComplete
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.dll
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/wismapi_packages/Wismapi.Data.SQLiteNet/obj/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.pdb
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.SQLiteNet\bin\Debug\netstandard2.1\Wismapi.Data.SQLiteNet.deps.json
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.SQLiteNet\bin\Debug\netstandard2.1\Wismapi.Data.SQLiteNet.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.SQLiteNet\bin\Debug\netstandard2.1\Wismapi.Data.SQLiteNet.pdb
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.SQLiteNet\bin\Debug\netstandard2.1\Wismapi.Data.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.SQLiteNet\bin\Debug\netstandard2.1\Wismapi.Utilities.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.SQLiteNet\bin\Debug\netstandard2.1\Wismapi.Data.pdb
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.SQLiteNet\bin\Debug\netstandard2.1\Wismapi.Utilities.pdb
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.SQLiteNet\obj\Debug\netstandard2.1\Wismapi.Data.SQLiteNet.csproj.AssemblyReference.cache
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.SQLiteNet\obj\Debug\netstandard2.1\Wismapi.Data.SQLiteNet.GeneratedMSBuildEditorConfig.editorconfig
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.SQLiteNet\obj\Debug\netstandard2.1\Wismapi.Data.SQLiteNet.AssemblyInfoInputs.cache
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.SQLiteNet\obj\Debug\netstandard2.1\Wismapi.Data.SQLiteNet.AssemblyInfo.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.SQLiteNet\obj\Debug\netstandard2.1\Wismapi.Data.SQLiteNet.csproj.CoreCompileInputs.cache
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.SQLiteNet\obj\Debug\netstandard2.1\Wismapi.Data.SQLiteNet.csproj.CopyComplete
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.SQLiteNet\obj\Debug\netstandard2.1\Wismapi.Data.SQLiteNet.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.SQLiteNet\obj\Debug\netstandard2.1\Wismapi.Data.SQLiteNet.pdb

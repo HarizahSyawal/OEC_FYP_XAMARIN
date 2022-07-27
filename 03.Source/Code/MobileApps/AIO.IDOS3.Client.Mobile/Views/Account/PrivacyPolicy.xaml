@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:sh="http://sharpnado.com" xmlns:dxe="http://schemas.devexpress.com/xamarin/2014/forms/editors"
+    x:Class="AIO.IDOS3.Client.Mobile.Views.PrivacyPolicy"
+    BackgroundColor="#F3F5F9">
+    <ContentPage.Content>
+        <AbsoluteLayout>
+
+        <StackLayout AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+            
+            <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+
+                <Grid Padding="16,10,16,10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                          <Label Grid.Row="0" FontSize="22">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="Privacy Policy" TextColor="#2196F3" FontAttributes="Bold" FontSize="32"/>
+                                <Span Text=" "/>
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                    <Label Grid.Row="1" Style="{StaticResource TextEditDefaultStyle}"      
+                                  TextColor="{StaticResource EditBaseReadOnlyTextColor}"
+                                  Text="This Privacy Policy was last amended on December 31, 2019
+
+OnlineEducationConsultation as the organizer of the electronic system that operates the App. This page informs users as users of the App and Site Services about OEC' policies in obtaining, collecting, processing, analyzing, disclosing, displaying, announcing, transmitting, disseminating, using and utilizing information attached to certain individuals Data obtained from Users.
+
+User Consent to Data
+OEC obtains and collects Data i.e. by means of or through:
+
+Registration/registration of an account on the App;
+Log data obtained when a User accesses the Site or App that includes information such as internet protocol, browser type, browser version, date and time of visit, time required to access the Site, and others; and
+Users who input questions and emails through the App
+OEC uses the collected Data to:
+
+provide Features to provide, realize, maintain and improve the services of the Site and App;
+statistical analysis;
+relevant program offerings to users;
+E-mail newsletter;
+distribute or distribute Data to third parties; and
+other purposes relevant to the Features available on the App and the Site.
+OEC reserves the right to disclose, display, announce, transmit, disseminate, use and utilize data in accordance with the acquisition, collection, processing and analysis described above.
+
+The User hereby declares and approves the acquisition, collection, processing, analysis, disclosure, appearance, announcement, delivery, dissemination, use and utilization of Data by OEC as described above.
+
+Cookies
+Cookies are small amounts of information that certain websites store on the User's computer hardware. OEC uses Cookies to collect Data. The User may instruct through his or her browser to reject all Cookies or to indicate when cookies are being sent. However, if the User does not accept Cookies, the User may not use some parts of the Site.
+
+Data Security and Protection
+OEC establishes procedures for maintaining and protecting data security starting from the process of obtaining and collecting to the use and utilization of Data. OEC does not provide any guarantee that such procedures can guarantee the full protection and security of data. Hereby, the User represents and agrees to release OEC from any liability, loss or other consequences of or in connection with a breach of Data Protection and Security. However, OEC will comply with the procedures established by Indonesian laws and regulations to inform users in the event of a violation of Data Protection and Security, no later than 14 days from the occurrence of the breach accompanied by the reason or cause of the breach.
+
+Changes to privacy policy
+OEC may update its Privacy Policy at any time. OEC will notify the User of any such changes by publishing the new terms on the Site and App. Users are advised to review the Privacy Policy periodically to determine any applicable changes.
+
+Data Storage and Deletion
+OEC will store data as long as the User's account remains active and can delete it in accordance with the provisions of applicable laws and regulations.
+
+Legal Process Compliance
+Based on a valid request from law enforcement officials with regard to the provisions of Malaysian laws and regulations, OEC is obliged to provide data as requested.
+
+Contact Us
+If the User have some questions concerning the terms, conditions, or policies, please contact us through:"/>
+                </Grid>
+
+            </ScrollView>
+
+        </StackLayout>
+      
+
+    </AbsoluteLayout>  
+    </ContentPage.Content>
+</ContentPage>

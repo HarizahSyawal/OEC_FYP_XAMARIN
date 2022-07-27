@@ -1,0 +1,657 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7726F8FD-2FC0-4F36-9CBD-CB767DF64117}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TemplateGuid>{9AA2D3C6-3393-45F1-8E7C-5A9901728795}</TemplateGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>AIO.IDOS3.Client.Mobile.Android.Legacy</RootNamespace>
+    <AssemblyName>AIO.IDOS3.Client.Mobile.Android.Legacy</AssemblyName>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>..\AIO.IDOS3.Client.Mobile.Android\Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidResgenClass>..\AIO.IDOS3.Client.Mobile.Android\Resource</AndroidResgenClass>
+    <AndroidManifest>..\AIO.IDOS3.Client.Mobile.Android\Properties\AndroidManifest.xml</AndroidManifest>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
+    <TargetFrameworkVersion>v10.0</TargetFrameworkVersion>
+    <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
+    <AndroidUseAapt2>true</AndroidUseAapt2>
+    <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <MandroidI18n />
+    <AndroidKeyStore>false</AndroidKeyStore>
+    <EmbedAssembliesIntoApk>false</EmbedAssembliesIntoApk>
+    <AndroidUseSharedRuntime>true</AndroidUseSharedRuntime>
+    <AndroidSupportedAbis>
+    </AndroidSupportedAbis>
+    <AndroidCreatePackagePerAbi>false</AndroidCreatePackagePerAbi>
+    <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <AndroidPackageFormat>apk</AndroidPackageFormat>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>portable</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidManagedSymbols>true</AndroidManagedSymbols>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
+    <AndroidCreatePackagePerAbi>false</AndroidCreatePackagePerAbi>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+    <AotAssemblies>true</AotAssemblies>
+    <EnableLLVM>false</EnableLLVM>
+    <AndroidEnableProfiledAot>true</AndroidEnableProfiledAot>
+    <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
+    <AndroidSupportedAbis />
+    <AndroidUseAapt2>true</AndroidUseAapt2>
+    <MandroidI18n>
+    </MandroidI18n>
+    <AndroidEnableMultiDex>false</AndroidEnableMultiDex>
+    <AndroidLinkTool>r8</AndroidLinkTool>
+    <AndroidDexTool>d8</AndroidDexTool>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Xamarin.Android.Editors">
+      <HintPath>..\packages\DevExpress.XamarinForms.v20.2.3\binaries\DevExpress.Xamarin.Android.Editors.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xamarin.Android.Grid">
+      <HintPath>..\packages\DevExpress.XamarinForms.v20.2.3\binaries\DevExpress.Xamarin.Android.Grid.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Xamarin.Android.Navigation">
+      <HintPath>..\packages\DevExpress.XamarinForms.v20.2.3\binaries\DevExpress.Xamarin.Android.Navigation.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XamarinForms.Core.Android">
+      <HintPath>..\packages\DevExpress.XamarinForms.v20.2.3\binaries\DevExpress.XamarinForms.Core.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XamarinForms.Editors">
+      <HintPath>..\packages\DevExpress.XamarinForms.v20.2.3\binaries\DevExpress.XamarinForms.Editors.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XamarinForms.Editors.Android">
+      <HintPath>..\packages\DevExpress.XamarinForms.v20.2.3\binaries\DevExpress.XamarinForms.Editors.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XamarinForms.Grid.Android">
+      <HintPath>..\packages\DevExpress.XamarinForms.v20.2.3\binaries\DevExpress.XamarinForms.Grid.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XamarinForms.Navigation">
+      <HintPath>..\packages\DevExpress.XamarinForms.v20.2.3\binaries\DevExpress.XamarinForms.Navigation.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XamarinForms.Navigation.Android">
+      <HintPath>..\packages\DevExpress.XamarinForms.v20.2.3\binaries\DevExpress.XamarinForms.Navigation.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Android" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\AIO.IDOS3.Client.Mobile.Android\DependencyServices\FileUtility.cs" />
+    <Compile Include="..\AIO.IDOS3.Client.Mobile.Android\DependencyServices\DXUtility.cs" />
+    <Compile Include="..\AIO.IDOS3.Client.Mobile.Android\DependencyServices\DatePickerDialog.cs" />
+    <Compile Include="..\AIO.IDOS3.Client.Mobile.Android\DependencyServices\DeviceUtility.cs" />
+    <Compile Include="..\AIO.IDOS3.Client.Mobile.Android\DependencyServices\DatabaseUtility.cs" />
+    <Compile Include="..\AIO.IDOS3.Client.Mobile.Android\MainApplication.cs" />
+    <Compile Include="..\AIO.IDOS3.Client.Mobile.Android\MainActivity.cs" />
+    <Compile Include="..\AIO.IDOS3.Client.Mobile.Android\Themes\PlatformThemeEnvironment.cs" />
+    <Compile Include="..\AIO.IDOS3.Client.Mobile.Android\Themes\PlatformThemeLoader.cs" />
+    <Compile Include="..\AIO.IDOS3.Client.Mobile.Android\Resources\Resource.designer.cs" />
+    <Compile Include="..\AIO.IDOS3.Client.Mobile.Android\Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="..\AIO.IDOS3.Client.Mobile.Android\Assets\animation_master_data_sync.json">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidAsset>
+    <ProguardConfiguration Include="proguard.cfg" />
+    <AndroidAsset Include="..\AIO.IDOS3.Client.Mobile.Android\Assets\idos3_mobile.db" />
+    <LinkDescription Include="LinkerConfig.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </LinkDescription>
+    <None Include="..\AIO.IDOS3.Client.Mobile.Android\Resources\AboutResources.txt" />
+    <None Include="..\AIO.IDOS3.Client.Mobile.Android\Assets\AboutAssets.txt" />
+    <None Include="..\AIO.IDOS3.Client.Mobile.Android\Properties\AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile.Android\Resources\layout\Tabbar.xml" />
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile.Android\Resources\layout\Toolbar.xml" />
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile.Android\Resources\values\styles.xml" />
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile.Android\Resources\values\colors.xml" />
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile.Android\Resources\mipmap-anydpi-v26\icon.xml" />
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile.Android\Resources\mipmap-anydpi-v26\icon_round.xml" />
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile.Android\Resources\mipmap-hdpi\icon.png" />
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile.Android\Resources\mipmap-hdpi\launcher_foreground.png" />
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile.Android\Resources\mipmap-mdpi\icon.png" />
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile.Android\Resources\mipmap-mdpi\launcher_foreground.png" />
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile.Android\Resources\mipmap-xhdpi\icon.png" />
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile.Android\Resources\mipmap-xhdpi\launcher_foreground.png" />
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile.Android\Resources\mipmap-xxhdpi\icon.png" />
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile.Android\Resources\mipmap-xxhdpi\launcher_foreground.png" />
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile.Android\Resources\mipmap-xxxhdpi\icon.png" />
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile.Android\Resources\mipmap-xxxhdpi\launcher_foreground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Birdie.MediaPlugin">
+      <Version>1.0.0</Version>
+    </PackageReference>
+    <PackageReference Include="CardsView">
+      <Version>2.6.3</Version>
+    </PackageReference>
+    <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie">
+      <Version>3.1.3</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.AspNetCore.OData">
+      <Version>7.4.1</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore">
+      <Version>3.1.8</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational">
+      <Version>3.1.8</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite">
+      <Version>3.1.8</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.OData.Client">
+      <Version>7.7.1</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.OData.Core">
+      <Version>7.7.1</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.OData.Edm">
+      <Version>7.7.1</Version>
+    </PackageReference>
+    <PackageReference Include="Mono.Cecil">
+      <Version>0.11.1</Version>
+    </PackageReference>
+    <PackageReference Include="Prism.DryIoc.Extensions">
+      <Version>7.2.0.1054</Version>
+    </PackageReference>
+    <PackageReference Include="Shiny.BluetoothLE">
+      <Version>1.2.0.1755-beta</Version>
+    </PackageReference>
+    <PackageReference Include="Shiny.Core">
+      <Version>1.2.0.1755</Version>
+    </PackageReference>
+    <PackageReference Include="Shiny.Locations">
+      <Version>1.2.0.1755</Version>
+    </PackageReference>
+    <PackageReference Include="Shiny.Notifications">
+      <Version>1.2.0.1755</Version>
+    </PackageReference>
+    <PackageReference Include="Shiny.Prism">
+      <Version>7.2.0.1054</Version>
+    </PackageReference>
+    <PackageReference Include="System.Text.Json">
+      <Version>4.7.2</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.Animated.Vector.Drawable">
+      <Version>28.0.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.Core.Utils">
+      <Version>28.0.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Android.Support.v7.AppCompat">
+      <Version>28.0.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.AndroidX.Legacy.Support.Core.Utils">
+      <Version>1.0.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.AndroidX.Legacy.Support.V4">
+      <Version>1.0.0.3</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.AndroidX.Migration">
+      <Version>1.0.7</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Essentials">
+      <Version>1.5.3.2</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Essentials.Interfaces">
+      <Version>1.5.3.2</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.FFImageLoading">
+      <Version>2.4.11.982</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.FFImageLoading.Forms">
+      <Version>2.4.11.982</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms">
+      <Version>4.8.0.1364</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Forms.Maps">
+      <Version>4.8.0.1364</Version>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Kotlin.StdLib">
+      <Version>1.3.72</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\drawable\launcher.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\mipmap-hdpi\launcher_company_logo.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\mipmap-mdpi\launcher_company_logo.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\mipmap-xhdpi\launcher_company_logo.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\mipmap-xxhdpi\launcher_company_logo.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\mipmap-xxxhdpi\launcher_company_logo.png">
+      <CustomToolNamespace>MSBuild:UpdateGeneratedFiles</CustomToolNamespace>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\mipmap-hdpi\launcher_background.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\mipmap-mdpi\launcher_background.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\mipmap-xhdpi\launcher_background.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\mipmap-xxxhdpi\launcher_background.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\mipmap-xxhdpi\launcher_background.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\drawable\page_background.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\drawable\gallery1.jpg">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\drawable\gallery3.jpg">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\drawable\gallery2.jpg">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\drawable\page_background.jpg">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\drawable\icon_lock_24dp.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\values\strings.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\mipmap-xhdpi\icon_background.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\mipmap-xhdpi\icon_foreground.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\mipmap-xhdpi\icon_round.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\mipmap-mdpi\icon_round.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\mipmap-mdpi\icon_foreground.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\mipmap-mdpi\icon_background.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\mipmap-xxhdpi\icon_background.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\mipmap-xxhdpi\icon_foreground.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\mipmap-xxhdpi\icon_round.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\mipmap-hdpi\icon_background.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\mipmap-hdpi\icon_foreground.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\mipmap-hdpi\icon_round.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\AIO.IDOS3.Client.Mobile\Properties\icon-playstore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\mipmap-xxxhdpi\icon_background.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\mipmap-xxxhdpi\icon_foreground.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\mipmap-xxxhdpi\icon_round.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\drawable-xxxhdpi\notif_icon.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\drawable-hdpi\notif_icon.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\drawable-mdpi\notif_icon.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\drawable-xhdpi\notif_icon.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\drawable-xxhdpi\notif_icon.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\drawable-hdpi\action_bar_tab_icon.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\drawable-mdpi\action_bar_tab_icon.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\drawable-xhdpi\action_bar_tab_icon.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\drawable-xxhdpi\action_bar_tab_icon.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Client.Mobile\Resources\drawable-xxxhdpi\action_bar_tab_icon.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\AIO.IDOS3.Mobile.Data.Entity\AIO.IDOS3.Mobile.Data.Entity.csproj">
+      <Project>{f5d83d5e-d913-411e-9891-17777bff0212}</Project>
+      <Name>AIO.IDOS3.Mobile.Data.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\wismapi_packages\Wismapi.Data.Entity\Wismapi.Data.Entity.csproj">
+      <Project>{9f5019d3-e682-4358-ba38-2d16afc25969}</Project>
+      <Name>Wismapi.Data.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\wismapi_packages\Wismapi.Xamarin.Utilities\Wismapi.Xamarin.Utilities.csproj">
+      <Project>{84faf3ab-a22e-4043-9f87-2d7d14bb5400}</Project>
+      <Name>Wismapi.Xamarin.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AIO.IDOS3.Client.Mobile.Legacy\AIO.IDOS3.Client.Mobile.Legacy.csproj">
+      <Project>{5de6163d-c08b-451f-b996-8f5fa3a536f4}</Project>
+      <Name>AIO.IDOS3.Client.Mobile</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\values-v21\styles.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\values-v27\styles.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\drawable\icon_user_account_24dp.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\drawable\icon_route_plan_24dp.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\drawable\icon_home_24dp.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="..\AIO.IDOS3.Mobile.Android\Assets\Test1.jpg">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidAsset>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\drawable\icon_delete_24dp.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\drawable\icon_edit_24dp.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\drawable\icon_add_24dp.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\drawable\icon_check_inprogress_24dp.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\drawable\icon_checked_24dp.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\drawable\icon_sync_24dp.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\xml\file_paths.xml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\drawable\icon_camera_24dp.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\drawable\icon_save_24dp.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\drawable\icon_reject_24dp.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\drawable\icon_approve_24dp.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\drawable\icon_bill_and_receipt_statement_color_24dp.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\drawable\icon_collapse_24dp.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\drawable\icon_expand_24dp.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\drawable\icon_bill_and_receipt_statement_48dp.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\drawable\icon_customer_bill_group_24dp.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\drawable\icon_other_activity_24dp.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\drawable\icon_customer_stock_record_24dp.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\drawable\icon_search_24dp.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\drawable\icon_stock_transfer_color_24dp.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\drawable\icon_sync_color_24dp.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\drawable\icon_giro_color_24dp.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="..\AIO.IDOS3.Mobile.Android\Resources\drawable\icon_stock_view_color_24dp.xml">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+</Project>

@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
+    <Folder Include="Tables\Login\Generated\" />
+    <Folder Include="Tables\University\Generated\" />
+    <Folder Include="Views\vLogin\Generated\" />
+    <Folder Include="Views\vUniversity\Generated\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Syncfusion.Xamarin.Buttons" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Xamarin.Buttons" Version="20.1.0.48" />
+  </ItemGroup>
+</Project>

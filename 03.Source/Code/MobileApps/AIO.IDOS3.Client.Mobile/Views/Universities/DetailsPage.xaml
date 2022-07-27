@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:PageBase
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:prism="http://prismlibrary.com"
+    xmlns:dxg="clr-namespace:DevExpress.XamarinForms.DataGrid;assembly=DevExpress.XamarinForms.Grid"
+    xmlns:dxe="clr-namespace:DevExpress.XamarinForms.Editors;assembly=DevExpress.XamarinForms.Editors"
+    xmlns:sh="http://sharpnado.com"
+    xmlns:xfs="clr-namespace:XFShimmerLayout.Controls;assembly=XFShimmerLayout"
+    xmlns:views="clr-namespace:AIO.IDOS3.Client.Mobile.Views"
+    xmlns:viewModels="clr-namespace:AIO.IDOS3.Client.Mobile.ViewModels" xmlns:cards="clr-namespace:PanCardView;assembly=PanCardView" xmlns:ffimage="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms" xmlns:controls="clr-namespace:PanCardView.Controls;assembly=PanCardView"
+    
+    x:Class="AIO.IDOS3.Client.Mobile.Views.DetailsPage"
+    x:TypeArguments="viewModels:DetailsPageViewModel"
+    x:Name="page"
+    prism:ViewModelLocator.AutowireViewModel="True"
+    Title="{Binding Title}"
+    NavigationPage.HasNavigationBar="False"
+    BackgroundColor="{StaticResource PageBackgroundColor}">
+
+<ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="ActiveIndicator" TargetType="Frame">
+                <Setter Property="BackgroundColor" Value="#007bc1"/>
+                <Setter Property="OutlineColor" Value="#cccccc"/>
+            </Style>
+            <Style x:Key="InactiveIndicator" TargetType="Frame">
+                <Setter Property="BackgroundColor" Value="#007bc1"/>
+                <Setter Property="OutlineColor" Value="#006aa6"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <AbsoluteLayout>
+
+        <StackLayout AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+
+            <sh:Shadows VerticalOptions="Start" Margin="0,0,0,0">
+                <sh:Shadows.Shades>
+                    <sh:ImmutableShades>
+                        <sh:Shade BlurRadius="6" Opacity="1" Offset="0,4" Color="#b4b4b4"/>
+                    </sh:ImmutableShades>
+                </sh:Shadows.Shades>
+
+                <Frame CornerRadius="0" Padding="10" BackgroundColor="White">
+                    <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+                        <dxe:SimpleButton Style="{StaticResource NavigationBarBackButton}" Command="{Binding PerformBackNavigationCommand}"/>
+                        <Label Text="{Binding Title}" Style="{StaticResource NavigationBarTitle}"/>
+                    </StackLayout>
+                </Frame>
+            </sh:Shadows>
+
+            <Grid AbsoluteLayout.LayoutFlags="All" AbsoluteLayout.LayoutBounds="0,0,1,1" ColumnSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <cards:CarouselView Grid.Row="0" x:Name="crsGallery" SlideShowDuration="3000">
+                <cards:CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <ContentView>
+                            <Frame HorizontalOptions="Center" VerticalOptions="Start" Padding="0">
+                                <ffimage:CachedImage Source="{Binding Url}"/>
+                            </Frame>
+                        </ContentView>
+                    </DataTemplate>
+                </cards:CarouselView.ItemTemplate>
+
+                <controls:IndicatorsControl
+                    SelectedIndicatorStyle="{StaticResource ActiveIndicator}"
+                    UnselectedIndicatorStyle="{StaticResource InactiveIndicator}"/>
+
+                <controls:LeftArrowControl />
+                <controls:RightArrowControl />
+            </cards:CarouselView>
+            </Grid>
+            
+            <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+
+                <Grid Padding="16,10,16,10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                           <Label Grid.Row="0" Style="{StaticResource TextEditDefaultStyle}"      
+                                  TextColor="{StaticResource EditBaseReadOnlyTextColor}"
+                                  Text="Universiti Teknologi Malaysia (UTM) is a university that is driven by innovation and top graduates. It is located in Kuala Lumpur, the capital city of Malaysia and Johor Bahru, south of the city in Iskandar Malaysia, which is a dynamic economic corridor in the south of Peninsular Malaysia. UTM has been awarded the 2019 Most Preferred University by the top portal, JobStreet.com. A brighter future for graduates of UTM"/>
+          <Label Grid.Row="1" FontSize="22">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="Study Program" FontAttributes="Bold" FontSize="20"/>
+                                <Span Text=" "/>
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+               <Label Grid.Row="2">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="• Faculty Of Engineering
+                                                                      • Faculty Of Built Environtment And Surveying
+                                              • Malaysia Japan International Institute Of Technology
+
+                                      • Azman Hashim International Business School
+                                            • Razak Faculty Of Technology And Informatics
+                                            • Faculty Of Social Sciences And Humanities"/>
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                     <Label Grid.Row="3">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="Office Hours" FontAttributes="Bold" TextColor="{StaticResource EditBaseReadOnlyTextColor}"/>
+                                <Span Text=" "/>
+                                 <Span Text=" "/>
+                                <Span Text="
+
+                                                                       Monday - Wednesday
+                                                       " FontAttributes="Bold"/>
+
+                                                                <Span Text="
+
+                                                       08.30–12.30, 14.15–16.30"/>
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                                         <Label Grid.Row="4">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="Thursday" FontAttributes="Bold"/>
+                                <Span Text=" "/>
+                                <Span Text="
+
+                                                                                 08.30–12.30, 14.15–15.00"/>
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText> 
+                </Label>
+                </Grid>
+
+            </ScrollView>
+
+            <Label HorizontalOptions="FillAndExpand" VerticalOptions="End" Margin="12,0,12,0" TextColor="Red" IsVisible="{Binding Model.IsError}" Text="{Binding Model.ErrorMessage}"/>
+
+            <BoxView VerticalOptions="End" Margin="0" HeightRequest="1" BackgroundColor="{StaticResource LineColor}"/>
+                
+            <StackLayout VerticalOptions="End" Margin="12,12,12,12" Orientation="Horizontal">
+                <dxe:SimpleButton HorizontalOptions="FillAndExpand" Style="{StaticResource SimpleButtonDefaultStyle}"                                                                    
+                                  Text="Get Consultation"                                          
+                                  Command="{Binding PerformConsultationCommand}">
+                    <dxe:SimpleButton.Triggers>
+                        <DataTrigger TargetType="dxe:SimpleButton" Binding="{Binding IsBusy}" Value="True">
+                            <Setter Property="IsEnabled" Value="False"/>
+                        </DataTrigger>
+                    </dxe:SimpleButton.Triggers>
+                </dxe:SimpleButton>
+                                <dxe:SimpleButton HorizontalOptions="FillAndExpand" Style="{StaticResource SimpleButtonDefaultStyle}"                                                                    
+                                  Text="Visit Website"                                          
+                                  Command="{Binding PerformVisitWebsiteCommand}">
+                    <dxe:SimpleButton.Triggers>
+                        <DataTrigger TargetType="dxe:SimpleButton" Binding="{Binding IsBusy}" Value="True">
+                            <Setter Property="IsEnabled" Value="False"/>
+                        </DataTrigger>
+                    </dxe:SimpleButton.Triggers>
+                </dxe:SimpleButton>
+            </StackLayout>
+
+        </StackLayout>
+
+        <views:LoadingPanelView AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" IsVisible="{Binding IsBusy}"/>
+
+    </AbsoluteLayout>
+    
+</views:PageBase>

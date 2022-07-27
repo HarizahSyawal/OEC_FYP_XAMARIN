@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{7726F8FD-2FC0-4F36-9CBD-CB767DF64117}|Default">
+  <MonoDevelop.Ide.ItemProperties.AIO.IDOS3.Client.Mobile.Android PreferredExecutionTarget="Android.fyp" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AIO.IDOS3.Client.Mobile/Views/Account/HelpPage.xaml">
+    <Files>
+      <File FileName="AIO.IDOS3.Client.Mobile/App.xaml.cs" Line="63" Column="1" IsPinned="True" />
+      <File FileName="AIO.IDOS3.Client.Mobile/Views/UniversityInfo/UniversityInfo.xaml" IsPinned="True" />
+      <File FileName="AIO.IDOS3.Client.Mobile/Views/Universities/ApplyUniversities.xaml" />
+      <File FileName="AIO.IDOS3.Client.Mobile/Views/Account/HelpPage.xaml" Line="33" Column="39" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MobileApps" expanded="True">
+            <Node name="AIO.IDOS3.Client.Mobile" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="Account" expanded="True">
+                  <Node name="HelpPage.xaml" selected="True" />
+                </Node>
+              </Node>
+              <Node name="App.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,10 @@
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Utilities\bin\Release\netstandard2.1\Wismapi.Utilities.deps.json
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Utilities\bin\Release\netstandard2.1\Wismapi.Utilities.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Utilities\bin\Release\netstandard2.1\Wismapi.Utilities.pdb
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Utilities\obj\Release\netstandard2.1\Wismapi.Utilities.csproj.AssemblyReference.cache
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Utilities\obj\Release\netstandard2.1\Wismapi.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Utilities\obj\Release\netstandard2.1\Wismapi.Utilities.AssemblyInfoInputs.cache
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Utilities\obj\Release\netstandard2.1\Wismapi.Utilities.AssemblyInfo.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Utilities\obj\Release\netstandard2.1\Wismapi.Utilities.csproj.CoreCompileInputs.cache
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Utilities\obj\Release\netstandard2.1\Wismapi.Utilities.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Utilities\obj\Release\netstandard2.1\Wismapi.Utilities.pdb

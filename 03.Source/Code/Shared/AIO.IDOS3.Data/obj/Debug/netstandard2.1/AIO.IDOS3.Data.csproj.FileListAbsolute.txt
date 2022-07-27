@@ -1,0 +1,50 @@
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/Shared/AIO.IDOS3.Data/bin/Debug/netstandard2.1/AIO.IDOS3.Data.deps.json
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/Shared/AIO.IDOS3.Data/bin/Debug/netstandard2.1/AIO.IDOS3.Data.dll
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/Shared/AIO.IDOS3.Data/bin/Debug/netstandard2.1/AIO.IDOS3.Data.pdb
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.csproj.AssemblyReference.cache
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.AssemblyInfoInputs.cache
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.AssemblyInfo.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.csproj.CoreCompileInputs.cache
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.dll
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.pdb
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/bin/Debug/netstandard2.1/AIO.IDOS3.Data.deps.json
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/bin/Debug/netstandard2.1/AIO.IDOS3.Data.dll
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/bin/Debug/netstandard2.1/AIO.IDOS3.Data.pdb
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.AssemblyInfoInputs.cache
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.AssemblyInfo.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.csproj.CoreCompileInputs.cache
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.dll
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.pdb
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.csproj.AssemblyReference.cache
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/bin/Debug/netstandard2.1/AIO.IDOS3.Data.deps.json
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/bin/Debug/netstandard2.1/AIO.IDOS3.Data.dll
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/bin/Debug/netstandard2.1/AIO.IDOS3.Data.pdb
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.AssemblyInfoInputs.cache
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.AssemblyInfo.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.csproj.CoreCompileInputs.cache
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.dll
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.pdb
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.csproj.AssemblyReference.cache
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/bin/Debug/netstandard2.1/AIO.IDOS3.Data.deps.json
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/bin/Debug/netstandard2.1/AIO.IDOS3.Data.dll
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/bin/Debug/netstandard2.1/AIO.IDOS3.Data.pdb
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.csproj.AssemblyReference.cache
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.AssemblyInfoInputs.cache
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.AssemblyInfo.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.csproj.CoreCompileInputs.cache
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.dll
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/Shared/AIO.IDOS3.Data/obj/Debug/netstandard2.1/AIO.IDOS3.Data.pdb
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\Shared\AIO.IDOS3.Data\bin\Debug\netstandard2.1\AIO.IDOS3.Data.deps.json
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\Shared\AIO.IDOS3.Data\bin\Debug\netstandard2.1\AIO.IDOS3.Data.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\Shared\AIO.IDOS3.Data\bin\Debug\netstandard2.1\AIO.IDOS3.Data.pdb
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\Shared\AIO.IDOS3.Data\obj\Debug\netstandard2.1\AIO.IDOS3.Data.csproj.AssemblyReference.cache
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\Shared\AIO.IDOS3.Data\obj\Debug\netstandard2.1\AIO.IDOS3.Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\Shared\AIO.IDOS3.Data\obj\Debug\netstandard2.1\AIO.IDOS3.Data.AssemblyInfoInputs.cache
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\Shared\AIO.IDOS3.Data\obj\Debug\netstandard2.1\AIO.IDOS3.Data.AssemblyInfo.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\Shared\AIO.IDOS3.Data\obj\Debug\netstandard2.1\AIO.IDOS3.Data.csproj.CoreCompileInputs.cache
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\Shared\AIO.IDOS3.Data\obj\Debug\netstandard2.1\AIO.IDOS3.Data.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\Shared\AIO.IDOS3.Data\obj\Debug\netstandard2.1\AIO.IDOS3.Data.pdb

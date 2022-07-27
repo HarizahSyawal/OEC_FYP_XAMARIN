@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:PageBase
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:prism="http://prismlibrary.com"
+    xmlns:dxe="clr-namespace:DevExpress.XamarinForms.Editors;assembly=DevExpress.XamarinForms.Editors"
+    xmlns:dxn="clr-namespace:DevExpress.XamarinForms.Navigation;assembly=DevExpress.XamarinForms.Navigation"
+    xmlns:sh="http://sharpnado.com"
+    xmlns:effects="clr-namespace:AIO.IDOS3.Client.Mobile.Effects"
+    xmlns:views="clr-namespace:AIO.IDOS3.Client.Mobile.Views"
+    xmlns:viewModels="clr-namespace:AIO.IDOS3.Client.Mobile.ViewModels"
+    xmlns:local="clr-namespace:AIO.IDOS3.Client.Mobile" xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+    
+    x:Class="AIO.IDOS3.Client.Mobile.Views.MainPage"
+    x:TypeArguments="viewModels:MainViewModel"
+    x:Name="page"
+    prism:ViewModelLocator.AutowireViewModel="True"    
+    NavigationPage.HasNavigationBar="False"
+    Title="{Binding Title}"
+    BackgroundColor="{StaticResource PageBackgroundColor}">
+
+    <AbsoluteLayout>
+
+        <StackLayout AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+
+            <dxn:TabView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Style="{DynamicResource MainTabViewDefaultStyle}" x:Name="tabView"
+                         SelectedItem="{Binding SelectedTabViewItem}"
+                         HeaderPanelPosition="Bottom">
+
+                <dxn:TabViewItem HeaderText="Homepage" HeaderIcon="icon_home_24dp">
+                    
+                       <dxn:TabViewItem.Content>
+
+                        <StackLayout>
+
+                            <sh:Shadows>
+                                <sh:Shadows.Shades>
+                                    <sh:ImmutableShades>
+                                        <sh:Shade BlurRadius="6" Opacity="1" Offset="0,4" Color="#e4e4e4"/>
+                                    </sh:ImmutableShades>
+                                </sh:Shadows.Shades>
+
+                                <Frame HorizontalOptions="FillAndExpand" Padding="0" BackgroundColor="White" CornerRadius="0" >
+                                    <StackLayout HorizontalOptions="FillAndExpand" Padding="16,7,16,7" Orientation="Horizontal">
+                                        <Image HorizontalOptions="Start" VerticalOptions="Center" HeightRequest="32"/>
+                                        <Image HorizontalOptions="FillAndExpand"/>
+
+                                        <Image HorizontalOptions="End" VerticalOptions="Center" Source="icon_user_24dp" effects:TintImageEffect.TintColor="{StaticResource AccentColor}">
+                                            <Image.Effects>
+                                                <effects:TintImageEffect />
+                                            </Image.Effects>
+                                        </Image>
+                                        
+                                        <Label HorizontalOptions="End" VerticalOptions="Center" Text="{Binding UserName}" TextColor="{StaticResource TitleTextColor}" FontFamily="Roboto-Medium"/>
+                                    </StackLayout>
+                                </Frame>
+                            </sh:Shadows>
+                            <StackLayout>
+                                <sh:Shadows CornerRadius="4">
+                                    <sh:Shadows.Shades>
+                                        <sh:ImmutableShades>
+                                            <sh:Shade BlurRadius="3" Opacity="1" Offset="3,3" Color="#e4e4e4"/>
+                                            <sh:Shade BlurRadius="0" Opacity="1" Offset="-1,-1" Color="#eeeeee"/>
+                                        </sh:ImmutableShades>
+                                    </sh:Shadows.Shades>
+
+                                    <Frame Margin="12,12,12,12" Padding="12" BackgroundColor="White" CornerRadius="4">
+                                        <StackLayout>
+                                        <Label Text="We’ve got everything you need" FontSize="14" FontFamily="Roboto-Bold"/>
+                                            <Label Text="to study overseas" FontSize="14" FontFamily="Roboto-Bold"/>
+                                        <Grid Margin="0,0,0,0" ColumnSpacing="12">
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="Auto"/>
+                                                <RowDefinition Height="Auto"/>
+                                            </Grid.RowDefinitions>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="*"/>
+                                            </Grid.ColumnDefinitions>
+
+
+                                            <dxe:SimpleButton Grid.Row="0" Grid.Column="0" HorizontalOptions="FillAndExpand" Style="{DynamicResource SimpleButtonDefaultStyle}"
+                                                  BackgroundColor="WhiteSmoke"
+                                                  Command="{Binding NavigateToApplyUniversitiesCommand}">                                            
+                                                <StackLayout>
+                                                    <Image HorizontalOptions="FillAndExpand" VerticalOptions="Start" Source="icon_stock_transfer_color_24dp"/>                                                
+                                                    <Label HorizontalOptions="FillAndExpand" VerticalOptions="Start" HorizontalTextAlignment="Center" VerticalTextAlignment="Start" Text="Apply University" FontSize="16" FontFamily="Roboto-Medium" TextColor="{StaticResource AccentColor}" IsEnabled="False"/>
+                                                </StackLayout>
+                                                <dxe:SimpleButton.Triggers>
+                                                    <DataTrigger TargetType="dxe:SimpleButton" Binding="{Binding IsBusy}" Value="True">
+                                                        <Setter Property="IsEnabled" Value="False"/>
+                                                    </DataTrigger>
+                                                </dxe:SimpleButton.Triggers>
+                                            </dxe:SimpleButton>
+
+                                            <dxe:SimpleButton Grid.Row="0" Grid.Column="1" HorizontalOptions="FillAndExpand" Style="{DynamicResource SimpleButtonDefaultStyle}"
+                                                  BackgroundColor="WhiteSmoke"                                  
+                                                  Command="{Binding NavigateToConsultationCommand}">
+                                                <StackLayout>
+                                                    <Image HorizontalOptions="FillAndExpand" VerticalOptions="Start" Source="icon_bill_and_receipt_statement_color_24dp"/>
+                                                    <Label HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Start" Text="Consultation" FontSize="16" FontFamily="Roboto-Medium" TextColor="{StaticResource AccentColor}"/>
+                                                </StackLayout>
+                                                <dxe:SimpleButton.Triggers>
+                                                    <DataTrigger TargetType="dxe:SimpleButton" Binding="{Binding IsBusy}" Value="True">
+                                                        <Setter Property="IsEnabled" Value="False"/>
+                                                    </DataTrigger>
+                                                </dxe:SimpleButton.Triggers>
+                                            </dxe:SimpleButton>
+
+                                            <dxe:SimpleButton Grid.Row="0" Grid.Column="2" HorizontalOptions="FillAndExpand" Style="{DynamicResource SimpleButtonDefaultStyle}"                                  
+                                                  BackgroundColor="WhiteSmoke"
+                                                  Command="{Binding NavigateToAptitudePageCommand}">
+                                                <StackLayout>
+                                                    <Image HorizontalOptions="FillAndExpand" VerticalOptions="Start" Source="icon_sync_color_24dp"/>
+                                                    <Label HorizontalOptions="FillAndExpand" VerticalOptions="Start" HorizontalTextAlignment="Center" VerticalTextAlignment="Start" Text="Aptitude Test" FontSize="16" FontFamily="Roboto-Medium" TextColor="{StaticResource AccentColor}"/>
+                                                </StackLayout>
+                                                <dxe:SimpleButton.Triggers>
+                                                    <DataTrigger TargetType="dxe:SimpleButton" Binding="{Binding IsBusy}" Value="True">
+                                                        <Setter Property="IsEnabled" Value="False"/>
+                                                    </DataTrigger>
+                                                </dxe:SimpleButton.Triggers>
+                                            </dxe:SimpleButton>
+                                        </Grid>
+                                      </StackLayout>
+                                    </Frame>
+                                </sh:Shadows>
+                            </StackLayout>
+                            <sh:Shadows CornerRadius="4">
+                                <sh:Shadows.Shades>
+                                    <sh:ImmutableShades>
+                                        <sh:Shade BlurRadius="3" Opacity="1" Offset="3,3" Color="#e4e4e4"/>
+                                        <sh:Shade BlurRadius="0" Opacity="1" Offset="-1,-1" Color="#eeeeee"/>
+                                    </sh:ImmutableShades>
+                                </sh:Shadows.Shades>
+
+                                <Frame Margin="12,12,12,12" Padding="12" BackgroundColor="White" CornerRadius="4">
+                                    <StackLayout>
+                                        <Label Text="Announcement" FontSize="18" FontFamily="Roboto-Bold"/>
+                                        <Label Text="Get new experiences by joining webinars" FontSize="15"/>
+                                             <CollectionView Grid.Row="1" Margin="30" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"
+                            SelectionMode="None" ItemsSource="{Binding MyEvents}">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Vertical" ItemSpacing="20"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame HasShadow="True" BackgroundColor="Transparent" VerticalOptions="StartAndExpand" 
+                          HorizontalOptions="FillAndExpand" Padding="0">
+                            <Grid VerticalOptions="StartAndExpand" HorizontalOptions="FillAndExpand">
+                                <xct:Expander x:Name="MainExpander" Command="{Binding MainExpander_Tapped}" CollapseAnimationLength="500">
+                                    <xct:Expander.Header>
+                                        <Grid HorizontalOptions="FillAndExpand" BackgroundColor="White" >
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="3*"/>
+                                            </Grid.ColumnDefinitions>
+                                            <BoxView BackgroundColor="#A0A4C9" Opacity="0.2"/>
+                                            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                                                <Label Text="{Binding Date, StringFormat='{0:ddd}'}" TextColor="#6670CC" FontSize="13" 
+                                                       HorizontalOptions="Center" FontAttributes="Bold"/>
+                                                <Label Text="{Binding Date, StringFormat='{0:dd}'}" TextColor="#FF5151" FontSize="26" 
+                                                       HorizontalOptions="Center" Margin="0,-10,0,0" FontAttributes="Bold"/>
+                                            </StackLayout>
+                                            <StackLayout Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Center" Margin="20">
+                                                <Label Text="{Binding Title}" TextColor="Black" FontSize="15"/>
+                                                <Label Text="{Binding Venue}" Opacity="0.85" TextColor="Black" FontSize="12" Margin="0,-5,0,0"/>
+                                                <Label Text="{Binding Duration}" Opacity="0.5" TextColor="Black" FontSize="12" Margin="0,-5,0,0"/>
+                                            </StackLayout>
+                                        </Grid>
+                                    </xct:Expander.Header>
+                                    <Grid RowSpacing="0" HorizontalOptions="FillAndExpand" HeightRequest="240">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="2*"/>
+                                            <RowDefinition Height="1.5*"/>
+                                        </Grid.RowDefinitions>
+                                        <Grid x:Name="ImageView" IsVisible="False">
+                                            <Image Source="{Binding Image}" Aspect="AspectFill" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+                                        </Grid>
+                                        <Grid x:Name="DetailsView" Grid.Row="1" BackgroundColor="White" Padding="20" IsVisible="False">
+                                            <StackLayout>
+                                                <Label Text="Details" TextColor="Black" FontSize="12" FontAttributes="Bold" Opacity="0.85"/>
+                                                <Label Text="{Binding Description}" TextColor="Black" FontSize="12" Opacity="0.85"/>
+                                            </StackLayout>
+                                        </Grid>
+                                    </Grid>
+                                </xct:Expander>
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+                                    </StackLayout>
+
+                                </Frame>
+                            </sh:Shadows>
+                        </StackLayout>
+
+
+                    </dxn:TabViewItem.Content>
+                </dxn:TabViewItem>
+
+                 <dxn:TabViewItem HeaderText="Universities" HeaderIcon="UnivIco">
+                    <dxn:TabViewItem.Content>
+                        <views:ApplyUniversities x:Name="vwApplyUniversities" prism:ViewModelLocator.AutowirePartialView="{x:Reference page}"/>
+                    </dxn:TabViewItem.Content>
+                </dxn:TabViewItem>
+
+                 <dxn:TabViewItem HeaderText="Profile" HeaderIcon="icon_user_account_24dp">
+                    <dxn:TabViewItem.Content>
+                        <views:AccountView x:Name="vwAccount" prism:ViewModelLocator.AutowirePartialView="{x:Reference page}"/>
+                    </dxn:TabViewItem.Content>
+                </dxn:TabViewItem>
+
+            </dxn:TabView>
+
+        </StackLayout>
+
+        <views:LoadingPanelView AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" IsVisible="{Binding IsBusy}"/>
+
+    </AbsoluteLayout>
+
+</views:PageBase>

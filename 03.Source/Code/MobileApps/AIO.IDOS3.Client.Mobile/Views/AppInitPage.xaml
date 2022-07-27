@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:PageBase
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"    
+    xmlns:views="clr-namespace:AIO.IDOS3.Client.Mobile.Views"
+    xmlns:viewModels="clr-namespace:AIO.IDOS3.Client.Mobile.ViewModels"
+    
+    x:Class="AIO.IDOS3.Client.Mobile.Views.AppInitPage"
+    x:TypeArguments="viewModels:AppInitViewModel">
+
+    <AbsoluteLayout x:DataType="viewModels:AppInitViewModel">
+
+        <Grid BackgroundColor="Transparent" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" IsVisible="{Binding IsBusy}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50*" />
+                <RowDefinition Height="50*" />
+            </Grid.RowDefinitions>
+            
+            <StackLayout Grid.Row="0"/>
+
+            <ActivityIndicator Grid.Row="1" IsRunning="True"/>
+        </Grid>
+                        
+    </AbsoluteLayout>
+
+</views:PageBase>

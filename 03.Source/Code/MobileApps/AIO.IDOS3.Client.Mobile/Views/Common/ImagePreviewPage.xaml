@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:PageBase
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:prism="http://prismlibrary.com"
+    xmlns:dxn="clr-namespace:DevExpress.XamarinForms.Navigation;assembly=DevExpress.XamarinForms.Navigation"
+    xmlns:dxg="clr-namespace:DevExpress.XamarinForms.DataGrid;assembly=DevExpress.XamarinForms.Grid"
+    xmlns:dxe="clr-namespace:DevExpress.XamarinForms.Editors;assembly=DevExpress.XamarinForms.Editors"
+    xmlns:views="clr-namespace:AIO.IDOS3.Client.Mobile.Views"
+    xmlns:viewModels="clr-namespace:AIO.IDOS3.Client.Mobile.ViewModels"
+    
+    x:Class="AIO.IDOS3.Client.Mobile.Views.ImagePreviewPage"
+    x:TypeArguments="viewModels:ImagePreviewViewModel"
+    prism:ViewModelLocator.AutowireViewModel="True"
+    Title="{Binding Title}"
+    BackgroundColor="{StaticResource PageBackgroundColor}">
+
+    <AbsoluteLayout x:DataType="viewModels:AppUpdateViewModel">
+
+        <StackLayout AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+
+            <Grid Margin="12">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!--<Label Grid.Row="0" 
+                        Text="{Binding InfoText}"
+                        HorizontalOptions="FillAndExpand"
+                        VerticalOptions="Start"/>-->
+
+                <!--<lottie:AnimationView Grid.Row="1" x:Name="lotSyncAnimation"
+                                      WidthRequest="3000"
+                                      HeightRequest="3000"
+                                      Animation="animation_master_data_sync.json"
+                                      Loop="True"                                      
+                                      IsPlaying="{Binding IsSynchronizing}"
+                                      IsVisible="{Binding IsSynchronized, Converter={StaticResource InvertBooleanConverter}}"/>-->
+
+                <ProgressBar Grid.Row="2" Progress="{Binding ProgressValue}"/>
+
+                <Label Grid.Row="3" HorizontalOptions="Center" Text="{Binding ProgressText}"/>
+
+                <dxe:SimpleButton Grid.Row="4" Style="{DynamicResource SimpleButtonDefaultStyle}"
+                                    VerticalOptions="End"
+                                    Text="Download"
+                                    IsVisible="True"
+                                    Command="{Binding PerformUpdateCommand}"/>
+            </Grid>
+
+        </StackLayout>
+
+    </AbsoluteLayout>
+
+</views:PageBase>

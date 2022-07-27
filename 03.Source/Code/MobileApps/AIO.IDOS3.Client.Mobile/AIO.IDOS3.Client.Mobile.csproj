@@ -1,0 +1,180 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="LegacyModels\**" />
+    <Compile Remove="LegacyViewModels\**" />
+    <Compile Remove="LegacyViews\**" />
+    <EmbeddedResource Remove="LegacyModels\**" />
+    <EmbeddedResource Remove="LegacyViewModels\**" />
+    <EmbeddedResource Remove="LegacyViews\**" />
+    <None Remove="LegacyModels\**" />
+    <None Remove="LegacyViewModels\**" />
+    <None Remove="LegacyViews\**" />
+    <None Remove="Models\AptitudeTest\" />
+    <None Remove="ViewModels\AptitudeTest\" />
+    <None Remove="Views\AptitudeTest\" />
+    <None Remove="Views\Universities\" />
+    <None Remove="Models\Universities\" />
+    <None Remove="ViewModels\Universities\" />
+    <None Remove="Views\Consultation\" />
+    <None Remove="Xamarin.Forms.PancakeView" />
+    <None Remove="Xamarin.Plugin.SharedTransitions" />
+    <None Remove="Controls\" />
+    <None Remove="Syncfusion.Xamarin.Buttons" />
+    <None Remove="ViewModels\Consultation\" />
+    <None Remove="Models\Consultation\" />
+    <None Remove="Conversion\" />
+    <None Remove="Models\UniversityInfo\" />
+    <None Remove="ViewModels\UniversityInfo\" />
+    <None Remove="Views\UniversityInfo\" />
+  </ItemGroup>
+  
+  <ItemGroup>    
+    <EmbeddedResource Include="Assets\Fonts\Roboto-300.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto-400.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto-500.ttf" />
+    <EmbeddedResource Include="Assets\Fonts\Roboto-700.ttf" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="CardsView" Version="2.7.0" />
+    <PackageReference Include="Com.Airbnb.Xamarin.Forms.Lottie" Version="4.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="6.0.1" />
+    <PackageReference Include="Prism.DryIoc.Forms" Version="7.2.0.1422" />
+    <PackageReference Include="Sharpnado.Shadows" Version="1.2.0" />
+    <PackageReference Include="System.Reactive" Version="5.0.0" />
+    <PackageReference Include="Xamarin.CommunityToolkit" Version="1.2.0" />
+    <PackageReference Include="Xamarin.Essentials.Interfaces" Version="1.6.1" />
+    <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.11.982" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />  
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />  
+    <PackageReference Include="Xamarin.Forms.Maps" Version="5.0.0.2012" />  
+    <PackageReference Include="XFShimmerLayout" Version="1.0.0" />
+    <PackageReference Include="Xamarin.Forms.PancakeView" Version="2.3.0.759" />
+    <PackageReference Include="Syncfusion.Xamarin.Buttons" Version="20.1.0.48" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Themes\DarkTheme.xaml.cs">
+      <DependentUpon>DarkTheme.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Account\AccountView.xaml.cs">
+      <DependentUpon>AccountView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Account\ChangelogPage.xaml.cs">
+      <DependentUpon>ChangelogPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Account\AppUpdatePage.xaml.cs">
+      <DependentUpon>AppUpdatePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Common\ImagePreviewPage.xaml.cs">
+      <DependentUpon>ImagePreviewPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Common\ExpanderIconView.xaml.cs">
+      <DependentUpon>ExpanderIconView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Common\NavigationBarView.xaml.cs">
+      <DependentUpon>NavigationBarView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Common\StaticLoadingPanelView.xaml.cs">
+      <DependentUpon>StaticLoadingPanelView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\AppInitPage.xaml.cs">
+      <DependentUpon>AppInitPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\DialogBase.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ViewBase.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Views\PageBase.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ITabViewItem.cs">
+      <DependentUpon>%(Filename)</DependentUpon>
+    </Compile>
+    <Compile Update="Views\SalesCollectionRoutesPage.xaml.cs">
+      <DependentUpon>SalesCollectionRoutesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Common\LoadingPanelView.xaml.cs">
+      <DependentUpon>LoadingPanelView.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\SalesCollectionRoutesPage.xaml.cs">
+      <DependentUpon>SalesCollectionRoutesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\Account\LoginPage.xaml.cs">
+      <DependentUpon>LoginPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>    
+    <Reference Include="DevExpress.XamarinForms.CollectionView">
+      <HintPath>..\packages\DevExpress.XamarinForms.v20.2.5\Binaries\DevExpress.XamarinForms.CollectionView.dll</HintPath>
+    </Reference>    
+    <Reference Include="DevExpress.XamarinForms.Core">
+      <HintPath>..\packages\DevExpress.XamarinForms.v20.2.5\binaries\DevExpress.XamarinForms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XamarinForms.Editors">
+      <HintPath>..\packages\DevExpress.XamarinForms.v20.2.5\binaries\DevExpress.XamarinForms.Editors.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XamarinForms.Grid">
+      <HintPath>..\packages\DevExpress.XamarinForms.v20.2.5\binaries\DevExpress.XamarinForms.Grid.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.XamarinForms.Navigation">
+      <HintPath>..\packages\DevExpress.XamarinForms.v20.2.5\binaries\DevExpress.XamarinForms.Navigation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Themes\LightTheme.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Universities\FilterTemplate.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Universities\UTMSite.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Assets\Images\" />
+    <Folder Include="Connected Services\" />
+    <Folder Include="Models\AptitudeTest\" />
+    <Folder Include="ViewModels\AptitudeTest\" />
+    <Folder Include="Views\AptitudeTest\" />
+    <Folder Include="Views\Consultation\" />
+    <Folder Include="Controls\" />
+    <Folder Include="ViewModels\Consultation\" />
+    <Folder Include="Models\Consultation\" />
+    <Folder Include="Conversion\" />
+    <Folder Include="Models\UniversityInfo\" />
+    <Folder Include="ViewModels\UniversityInfo\" />
+    <Folder Include="Views\UniversityInfo\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\AIO.IDOS3.Mobile.Data.SQLiteNet\AIO.IDOS3.Mobile.Data.SQLiteNet.csproj" />
+    <ProjectReference Include="..\..\wismapi_packages\Wismapi.Data.SQLiteNet\Wismapi.Data.SQLiteNet.csproj" />
+    <ProjectReference Include="..\..\wismapi_packages\Wismapi.Xamarin.Utilities\Wismapi.Xamarin.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

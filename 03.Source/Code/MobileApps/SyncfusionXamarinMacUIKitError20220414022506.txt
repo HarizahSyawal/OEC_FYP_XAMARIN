@@ -1,0 +1,6 @@
+Below exception occurred in EditAppXamlFile method:
+System.ArgumentException: String cannot be of zero length.
+Parameter name: oldValue
+  at System.String.Replace (System.String oldValue, System.String newValue) [0x000e5] in /Users/builder/jenkins/workspace/build-package-osx-mono/2020-02/external/bockbuild/builds/mono-x64/external/corefx/src/Common/src/CoreLib/System/String.Manipulation.cs:1114 
+  at Syncfusion.Xamarin.Mac.UIKit.ProjectOperations.EditAppXamlCSFile (MonoDevelop.Projects.ProjectItem projectItem, System.String selectedCategory) [0x000bd] in <1c78a777697b4b439cc734d4ef6887a3>:0 
+  at Syncfusion.Xamarin.Mac.UIKit.ProjectOperations.EditAppXamlFile (MonoDevelop.Projects.Project selectedProject, System.String selectedCategory) [0x00424] in <1c78a777697b4b439cc734d4ef6887a3>:0 

@@ -1,0 +1,15 @@
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.Entity\bin\Debug\netstandard2.1\Wismapi.Data.Entity.deps.json
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.Entity\bin\Debug\netstandard2.1\Wismapi.Data.Entity.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.Entity\bin\Debug\netstandard2.1\Wismapi.Data.Entity.pdb
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.Entity\bin\Debug\netstandard2.1\Wismapi.Data.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.Entity\bin\Debug\netstandard2.1\Wismapi.Utilities.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.Entity\bin\Debug\netstandard2.1\Wismapi.Data.pdb
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.Entity\bin\Debug\netstandard2.1\Wismapi.Utilities.pdb
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.Entity\obj\Debug\netstandard2.1\Wismapi.Data.Entity.csproj.AssemblyReference.cache
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.Entity\obj\Debug\netstandard2.1\Wismapi.Data.Entity.GeneratedMSBuildEditorConfig.editorconfig
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.Entity\obj\Debug\netstandard2.1\Wismapi.Data.Entity.AssemblyInfoInputs.cache
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.Entity\obj\Debug\netstandard2.1\Wismapi.Data.Entity.AssemblyInfo.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.Entity\obj\Debug\netstandard2.1\Wismapi.Data.Entity.csproj.CoreCompileInputs.cache
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.Entity\obj\Debug\netstandard2.1\Wismapi.Data.Entity.csproj.CopyComplete
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.Entity\obj\Debug\netstandard2.1\Wismapi.Data.Entity.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Data.Entity\obj\Debug\netstandard2.1\Wismapi.Data.Entity.pdb

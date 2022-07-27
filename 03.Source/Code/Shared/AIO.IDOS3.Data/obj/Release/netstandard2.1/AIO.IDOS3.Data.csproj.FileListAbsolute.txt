@@ -1,0 +1,10 @@
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\Shared\AIO.IDOS3.Data\bin\Release\netstandard2.1\AIO.IDOS3.Data.deps.json
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\Shared\AIO.IDOS3.Data\bin\Release\netstandard2.1\AIO.IDOS3.Data.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\Shared\AIO.IDOS3.Data\bin\Release\netstandard2.1\AIO.IDOS3.Data.pdb
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\Shared\AIO.IDOS3.Data\obj\Release\netstandard2.1\AIO.IDOS3.Data.csproj.AssemblyReference.cache
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\Shared\AIO.IDOS3.Data\obj\Release\netstandard2.1\AIO.IDOS3.Data.GeneratedMSBuildEditorConfig.editorconfig
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\Shared\AIO.IDOS3.Data\obj\Release\netstandard2.1\AIO.IDOS3.Data.AssemblyInfoInputs.cache
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\Shared\AIO.IDOS3.Data\obj\Release\netstandard2.1\AIO.IDOS3.Data.AssemblyInfo.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\Shared\AIO.IDOS3.Data\obj\Release\netstandard2.1\AIO.IDOS3.Data.csproj.CoreCompileInputs.cache
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\Shared\AIO.IDOS3.Data\obj\Release\netstandard2.1\AIO.IDOS3.Data.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\Shared\AIO.IDOS3.Data\obj\Release\netstandard2.1\AIO.IDOS3.Data.pdb

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentView
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:dxe="clr-namespace:DevExpress.XamarinForms.Editors;assembly=DevExpress.XamarinForms.Editors"
+    
+    x:Class="AIO.IDOS3.Client.Mobile.Views.NavigationBarView">
+
+    <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+
+        <dxe:SimpleButton HorizontalOptions="Start" VerticalOptions="Center" Style="{StaticResource NavigationBarIconButton}" x:Name="btnNavigateToBack"
+                          Padding="0,4,4,4"
+                          Icon="icon_back_32dp"/>
+
+        <Label Margin="0,-4,0,0" HorizontalOptions="Start" VerticalOptions="Center" FontSize="20" Text="Test" Style="{StaticResource NavigationBarTitle}" FontFamily="Roboto-Medium"  x:Name="lblTitle"/>
+
+    </StackLayout>
+
+</ContentView>

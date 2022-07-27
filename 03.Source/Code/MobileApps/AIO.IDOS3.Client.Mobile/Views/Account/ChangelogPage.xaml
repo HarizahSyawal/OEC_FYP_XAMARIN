@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:PageBase
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:prism="http://prismlibrary.com"
+    xmlns:dxn="clr-namespace:DevExpress.XamarinForms.Navigation;assembly=DevExpress.XamarinForms.Navigation"
+    xmlns:dxg="clr-namespace:DevExpress.XamarinForms.DataGrid;assembly=DevExpress.XamarinForms.Grid"
+    xmlns:dxe="clr-namespace:DevExpress.XamarinForms.Editors;assembly=DevExpress.XamarinForms.Editors"
+    xmlns:sh="http://sharpnado.com"
+    xmlns:views="clr-namespace:AIO.IDOS3.Client.Mobile.Views"
+    xmlns:viewModels="clr-namespace:AIO.IDOS3.Client.Mobile.ViewModels"
+    
+    x:Class="AIO.IDOS3.Client.Mobile.Views.ChangelogPage"
+    x:TypeArguments="viewModels:ChangelogViewModel"
+    prism:ViewModelLocator.AutowireViewModel="True"
+    Title="{Binding Title}"
+    NavigationPage.HasNavigationBar="False"
+    BackgroundColor="{StaticResource PageBackgroundColor}">
+
+    <AbsoluteLayout x:DataType="viewModels:ChangelogViewModel">
+
+        <StackLayout AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+
+            <sh:Shadows VerticalOptions="Start" Margin="0,0,0,0">
+                <sh:Shadows.Shades>
+                    <sh:ImmutableShades>
+                        <sh:Shade BlurRadius="6" Opacity="1" Offset="0,4" Color="#b4b4b4"/>
+                    </sh:ImmutableShades>
+                </sh:Shadows.Shades>
+
+                <Frame CornerRadius="0" Padding="10" BackgroundColor="White">
+                    <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+                        <dxe:SimpleButton Style="{StaticResource NavigationBarBackButton}" Command="{Binding PerformBackButtonPressedCommand}"/>
+                        <Label Text="{Binding Title}" Style="{StaticResource NavigationBarTitle}"/>
+                    </StackLayout>
+                </Frame>
+            </sh:Shadows>
+            
+            <Grid Margin="12">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <WebView Grid.Row="0" 
+                         WidthRequest="3000"
+                         HeightRequest="3000"
+                         Source="http://www.xamarin.com"
+                         HorizontalOptions="FillAndExpand"
+                         VerticalOptions="FillAndExpand"/>
+
+                <dxe:SimpleButton Grid.Row="1" Style="{DynamicResource SimpleButtonDefaultStyle}"
+                                    VerticalOptions="End"
+                                    Text="Close"
+                                    IsVisible="True"
+                                    Command="{Binding PerformCancelCommand}"/>
+            </Grid>
+
+        </StackLayout>
+
+        <views:LoadingPanelView AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" IsVisible="{Binding IsBusy}"/>
+
+    </AbsoluteLayout>
+
+</views:PageBase>

@@ -1,0 +1,129 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="vAuthorization\**" />
+    <Compile Remove="vCity\**" />
+    <Compile Remove="vCollectionRoutePlan\**" />
+    <Compile Remove="vCurrency\**" />
+    <Compile Remove="vCustomerBillGroup\**" />
+    <Compile Remove="vCustomerCategory\**" />
+    <Compile Remove="vCustomerStockRecord\**" />
+    <Compile Remove="vDiscountGroupProduct\**" />
+    <Compile Remove="vDiscountGroup\**" />
+    <Compile Remove="vDiscountStrataDetails\**" />
+    <Compile Remove="vDiscountStrata\**" />
+    <Compile Remove="vExchangeRate\**" />
+    <Compile Remove="vFinanceInstitution\**" />
+    <Compile Remove="vIncomingAccount\**" />
+    <Compile Remove="vInvoiceSummary\**" />
+    <Compile Remove="vInvoice\**" />
+    <Compile Remove="vMobileDeviceSettings\**" />
+    <Compile Remove="vMobileDevice\**" />
+    <Compile Remove="vMultiPayment\**" />
+    <Compile Remove="vPaymentCollectionDetails\**" />
+    <Compile Remove="vPaymentCollection\**" />
+    <Compile Remove="vProductPrice\**" />
+    <Compile Remove="vSalesOrderDetails\**" />
+    <Compile Remove="vSalesOrderReturnDetails\**" />
+    <Compile Remove="vSalesOrderReturnSummary\**" />
+    <Compile Remove="vSalesOrderReturn\**" />
+    <Compile Remove="vSalesOrderSummary\**" />
+    <Compile Remove="vSalesOrderSwapDetails\**" />
+    <Compile Remove="vSalesOrderSwapSummary\**" />
+    <Compile Remove="vSalesOrderSwap\**" />
+    <Compile Remove="vSalesOrder\**" />
+    <Compile Remove="vSalesPromotionProduct\**" />
+    <Compile Remove="vSalesPromotion\**" />
+    <Compile Remove="vStateProvince\**" />
+    <Compile Remove="vSystemLookup\**" />
+    <EmbeddedResource Remove="vAuthorization\**" />
+    <EmbeddedResource Remove="vCity\**" />
+    <EmbeddedResource Remove="vCollectionRoutePlan\**" />
+    <EmbeddedResource Remove="vCurrency\**" />
+    <EmbeddedResource Remove="vCustomerBillGroup\**" />
+    <EmbeddedResource Remove="vCustomerCategory\**" />
+    <EmbeddedResource Remove="vCustomerStockRecord\**" />
+    <EmbeddedResource Remove="vDiscountGroupProduct\**" />
+    <EmbeddedResource Remove="vDiscountGroup\**" />
+    <EmbeddedResource Remove="vDiscountStrataDetails\**" />
+    <EmbeddedResource Remove="vDiscountStrata\**" />
+    <EmbeddedResource Remove="vExchangeRate\**" />
+    <EmbeddedResource Remove="vFinanceInstitution\**" />
+    <EmbeddedResource Remove="vIncomingAccount\**" />
+    <EmbeddedResource Remove="vInvoiceSummary\**" />
+    <EmbeddedResource Remove="vInvoice\**" />
+    <EmbeddedResource Remove="vMobileDeviceSettings\**" />
+    <EmbeddedResource Remove="vMobileDevice\**" />
+    <EmbeddedResource Remove="vMultiPayment\**" />
+    <EmbeddedResource Remove="vPaymentCollectionDetails\**" />
+    <EmbeddedResource Remove="vPaymentCollection\**" />
+    <EmbeddedResource Remove="vProductPrice\**" />
+    <EmbeddedResource Remove="vSalesOrderDetails\**" />
+    <EmbeddedResource Remove="vSalesOrderReturnDetails\**" />
+    <EmbeddedResource Remove="vSalesOrderReturnSummary\**" />
+    <EmbeddedResource Remove="vSalesOrderReturn\**" />
+    <EmbeddedResource Remove="vSalesOrderSummary\**" />
+    <EmbeddedResource Remove="vSalesOrderSwapDetails\**" />
+    <EmbeddedResource Remove="vSalesOrderSwapSummary\**" />
+    <EmbeddedResource Remove="vSalesOrderSwap\**" />
+    <EmbeddedResource Remove="vSalesOrder\**" />
+    <EmbeddedResource Remove="vSalesPromotionProduct\**" />
+    <EmbeddedResource Remove="vSalesPromotion\**" />
+    <EmbeddedResource Remove="vStateProvince\**" />
+    <EmbeddedResource Remove="vSystemLookup\**" />
+    <None Remove="vAuthorization\**" />
+    <None Remove="vCity\**" />
+    <None Remove="vCollectionRoutePlan\**" />
+    <None Remove="vCurrency\**" />
+    <None Remove="vCustomerBillGroup\**" />
+    <None Remove="vCustomerCategory\**" />
+    <None Remove="vCustomerStockRecord\**" />
+    <None Remove="vDiscountGroupProduct\**" />
+    <None Remove="vDiscountGroup\**" />
+    <None Remove="vDiscountStrataDetails\**" />
+    <None Remove="vDiscountStrata\**" />
+    <None Remove="vExchangeRate\**" />
+    <None Remove="vFinanceInstitution\**" />
+    <None Remove="vIncomingAccount\**" />
+    <None Remove="vInvoiceSummary\**" />
+    <None Remove="vInvoice\**" />
+    <None Remove="vMobileDeviceSettings\**" />
+    <None Remove="vMobileDevice\**" />
+    <None Remove="vMultiPayment\**" />
+    <None Remove="vPaymentCollectionDetails\**" />
+    <None Remove="vPaymentCollection\**" />
+    <None Remove="vProductPrice\**" />
+    <None Remove="vSalesOrderDetails\**" />
+    <None Remove="vSalesOrderReturnDetails\**" />
+    <None Remove="vSalesOrderReturnSummary\**" />
+    <None Remove="vSalesOrderReturn\**" />
+    <None Remove="vSalesOrderSummary\**" />
+    <None Remove="vSalesOrderSwapDetails\**" />
+    <None Remove="vSalesOrderSwapSummary\**" />
+    <None Remove="vSalesOrderSwap\**" />
+    <None Remove="vSalesOrder\**" />
+    <None Remove="vSalesPromotionProduct\**" />
+    <None Remove="vSalesPromotion\**" />
+    <None Remove="vStateProvince\**" />
+    <None Remove="vSystemLookup\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="MobileDataServiceContextCsdl.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="MobileDataServiceContextCsdl.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\wismapi_packages\Wismapi.Data.Entity\Wismapi.Data.Entity.csproj" />
+    <ProjectReference Include="..\AIO.IDOS3.Data.Entity\AIO.IDOS3.Data.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

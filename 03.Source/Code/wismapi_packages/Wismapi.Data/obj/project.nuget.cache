@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "fIJ71gozqd4e7gACT/Z0CczWeh32wh5SM1VsV6EO78z6XcXHLQz5bXdjWE8lz03zHsrk78RJPZ42tWhGZ5GPrA==",
+  "success": true,
+  "projectFilePath": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Data\\Wismapi.Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BAN.NET\\.nuget\\packages\\syncfusion.licensing\\20.1.0.48\\syncfusion.licensing.20.1.0.48.nupkg.sha512",
+    "C:\\Users\\BAN.NET\\.nuget\\packages\\syncfusion.xamarin.buttons\\20.1.0.48\\syncfusion.xamarin.buttons.20.1.0.48.nupkg.sha512",
+    "C:\\Users\\BAN.NET\\.nuget\\packages\\syncfusion.xamarin.core\\20.1.0.48\\syncfusion.xamarin.core.20.1.0.48.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

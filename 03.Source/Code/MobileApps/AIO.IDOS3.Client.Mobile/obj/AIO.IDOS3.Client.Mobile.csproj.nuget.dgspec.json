@@ -1,0 +1,575 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\MobileApps\\AIO.IDOS3.Client.Mobile\\AIO.IDOS3.Client.Mobile.csproj": {}
+  },
+  "projects": {
+    "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\MobileApps\\AIO.IDOS3.Client.Mobile\\AIO.IDOS3.Client.Mobile.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\MobileApps\\AIO.IDOS3.Client.Mobile\\AIO.IDOS3.Client.Mobile.csproj",
+        "projectName": "AIO.IDOS3.Client.Mobile",
+        "projectPath": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\MobileApps\\AIO.IDOS3.Client.Mobile\\AIO.IDOS3.Client.Mobile.csproj",
+        "packagesPath": "C:\\Users\\BAN.NET\\.nuget\\packages\\",
+        "outputPath": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\MobileApps\\AIO.IDOS3.Client.Mobile\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BAN.NET\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\Shared\\AIO.IDOS3.Mobile.Data.SQLiteNet\\AIO.IDOS3.Mobile.Data.SQLiteNet.csproj": {
+                "projectPath": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\Shared\\AIO.IDOS3.Mobile.Data.SQLiteNet\\AIO.IDOS3.Mobile.Data.SQLiteNet.csproj"
+              },
+              "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Data.SQLiteNet\\Wismapi.Data.SQLiteNet.csproj": {
+                "projectPath": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Data.SQLiteNet\\Wismapi.Data.SQLiteNet.csproj"
+              },
+              "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Xamarin.Utilities\\Wismapi.Xamarin.Utilities.csproj": {
+                "projectPath": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Xamarin.Utilities\\Wismapi.Xamarin.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "CardsView": {
+              "target": "Package",
+              "version": "[2.7.0, )"
+            },
+            "Com.Airbnb.Xamarin.Forms.Lottie": {
+              "target": "Package",
+              "version": "[4.0.8, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Prism.DryIoc.Forms": {
+              "target": "Package",
+              "version": "[7.2.0.1422, )"
+            },
+            "Sharpnado.Shadows": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Syncfusion.Xamarin.Buttons": {
+              "target": "Package",
+              "version": "[20.1.0.48, )"
+            },
+            "System.Reactive": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "XFShimmerLayout": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Xamarin.CommunityToolkit": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Essentials.Interfaces": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.FFImageLoading.Forms": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            },
+            "Xamarin.Forms.PancakeView": {
+              "target": "Package",
+              "version": "[2.3.0.759, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\Shared\\AIO.IDOS3.Data\\AIO.IDOS3.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\Shared\\AIO.IDOS3.Data\\AIO.IDOS3.Data.csproj",
+        "projectName": "AIO.IDOS3.Data",
+        "projectPath": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\Shared\\AIO.IDOS3.Data\\AIO.IDOS3.Data.csproj",
+        "packagesPath": "C:\\Users\\BAN.NET\\.nuget\\packages\\",
+        "outputPath": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\Shared\\AIO.IDOS3.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BAN.NET\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Syncfusion.Xamarin.Buttons": {
+              "target": "Package",
+              "version": "[20.1.0.48, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\Shared\\AIO.IDOS3.Mobile.Data.SQLiteNet\\AIO.IDOS3.Mobile.Data.SQLiteNet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\Shared\\AIO.IDOS3.Mobile.Data.SQLiteNet\\AIO.IDOS3.Mobile.Data.SQLiteNet.csproj",
+        "projectName": "AIO.IDOS3.Mobile.Data.SQLiteNet",
+        "projectPath": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\Shared\\AIO.IDOS3.Mobile.Data.SQLiteNet\\AIO.IDOS3.Mobile.Data.SQLiteNet.csproj",
+        "packagesPath": "C:\\Users\\BAN.NET\\.nuget\\packages\\",
+        "outputPath": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\Shared\\AIO.IDOS3.Mobile.Data.SQLiteNet\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BAN.NET\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\Shared\\AIO.IDOS3.Data\\AIO.IDOS3.Data.csproj": {
+                "projectPath": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\Shared\\AIO.IDOS3.Data\\AIO.IDOS3.Data.csproj"
+              },
+              "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Data.SQLiteNet\\Wismapi.Data.SQLiteNet.csproj": {
+                "projectPath": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Data.SQLiteNet\\Wismapi.Data.SQLiteNet.csproj"
+              },
+              "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Data\\Wismapi.Data.csproj": {
+                "projectPath": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Data\\Wismapi.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Syncfusion.Xamarin.Buttons": {
+              "target": "Package",
+              "version": "[20.1.0.48, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Data.SQLiteNet\\Wismapi.Data.SQLiteNet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Data.SQLiteNet\\Wismapi.Data.SQLiteNet.csproj",
+        "projectName": "Wismapi.Data.SQLiteNet",
+        "projectPath": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Data.SQLiteNet\\Wismapi.Data.SQLiteNet.csproj",
+        "packagesPath": "C:\\Users\\BAN.NET\\.nuget\\packages\\",
+        "outputPath": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Data.SQLiteNet\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BAN.NET\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Data\\Wismapi.Data.csproj": {
+                "projectPath": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Data\\Wismapi.Data.csproj"
+              },
+              "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Utilities\\Wismapi.Utilities.csproj": {
+                "projectPath": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Utilities\\Wismapi.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.OData.Client": {
+              "target": "Package",
+              "version": "[7.8.1, )"
+            },
+            "Microsoft.OData.Core": {
+              "target": "Package",
+              "version": "[7.8.1, )"
+            },
+            "Microsoft.OData.Edm": {
+              "target": "Package",
+              "version": "[7.8.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Syncfusion.Xamarin.Buttons": {
+              "target": "Package",
+              "version": "[20.1.0.48, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Data\\Wismapi.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Data\\Wismapi.Data.csproj",
+        "projectName": "Wismapi.Data",
+        "projectPath": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Data\\Wismapi.Data.csproj",
+        "packagesPath": "C:\\Users\\BAN.NET\\.nuget\\packages\\",
+        "outputPath": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BAN.NET\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Syncfusion.Xamarin.Buttons": {
+              "target": "Package",
+              "version": "[20.1.0.48, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Utilities\\Wismapi.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Utilities\\Wismapi.Utilities.csproj",
+        "projectName": "Wismapi.Utilities",
+        "projectPath": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Utilities\\Wismapi.Utilities.csproj",
+        "packagesPath": "C:\\Users\\BAN.NET\\.nuget\\packages\\",
+        "outputPath": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BAN.NET\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Syncfusion.Xamarin.Buttons": {
+              "target": "Package",
+              "version": "[20.1.0.48, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Xamarin.Utilities\\Wismapi.Xamarin.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Xamarin.Utilities\\Wismapi.Xamarin.Utilities.csproj",
+        "projectName": "Wismapi.Xamarin.Utilities",
+        "projectPath": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Xamarin.Utilities\\Wismapi.Xamarin.Utilities.csproj",
+        "packagesPath": "C:\\Users\\BAN.NET\\.nuget\\packages\\",
+        "outputPath": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\wismapi_packages\\Wismapi.Xamarin.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\BAN.NET\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Syncfusion.Xamarin.Buttons": {
+              "target": "Package",
+              "version": "[20.1.0.48, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.409\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

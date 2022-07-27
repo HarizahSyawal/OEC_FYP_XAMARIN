@@ -1,0 +1,404 @@
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.deps.json
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.dll
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/ref/AIO.IDOS3.Client.Mobile.dll
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.pdb
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Data.dll
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Mobile.Data.SQLiteNet.dll
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/DevExpress.XamarinForms.CollectionView.dll
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/DevExpress.XamarinForms.Core.dll
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/DevExpress.XamarinForms.Editors.dll
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/DevExpress.XamarinForms.Grid.dll
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/DevExpress.XamarinForms.Navigation.dll
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Data.dll
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.dll
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Utilities.dll
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Xamarin.Utilities.dll
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Mobile.Data.SQLiteNet.pdb
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.pdb
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Xamarin.Utilities.pdb
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Data.pdb
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Data.pdb
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Utilities.pdb
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.csproj.AssemblyReference.cache
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/App.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Themes/DarkTheme.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Themes/LightTheme.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/About/AboutPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/AccountView.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/AppUpdatePage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/ChangelogPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/LoginPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/AppInitPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/BillAndReceiptStatement/BillAndReceiptStatementsPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Call/CustomerBillGroupCallCheckOutNoCollectionReasonPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Call/CustomerBillGroupCallLocationView.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Call/CustomerBillGroupCallPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Call/CustomerBillGroupCallSummaryView.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Call/CustomerCallCheckOutNoCollectionReasonPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Call/CustomerCallCheckOutNoSalesReasonPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Call/CustomerCallLocationView.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Call/CustomerCallPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Call/CustomerCallSummaryView.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Call/EditCompetitorActivityView.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Call/EditCustomerStockRecordDetailsDialog.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Call/EditCustomerStockRecordPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Call/EditMerchandiseDisplayActivityView.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Call/EditOtherActivitiesPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Call/EditPromotionalMaterialActivityView.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Call/EditSalesCallPromatPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Call/EditSalesCallPromatPageDetails.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Common/ExpanderIconView.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Common/ImagePreviewPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Common/LoadingPanelView.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Common/NavigationBarView.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Common/StaticLoadingPanelView.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Customer/EditNewCustomerAddressInfoView.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Customer/EditNewCustomerGeneralInfoView.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Customer/EditNewCustomerPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Customer/EditNewCustomerRoutePlanView.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Customer/EditNewCustomerTaxInfoView.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Giro/EditGiroPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Giro/GirosPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Invoice/InvoicesView.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/MainPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/MobileActivity/MobileActivitiesView.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/MobileActivity/MobileActivityDailyReportPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/MobileActivity/MobileActivityEndOfDayPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/MobileActivity/MobileActivityStartOfDayPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/PaymentCollection/EditPaymentCollectionAdditionalCostDialog.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/PaymentCollection/EditPaymentCollectionDetailsDialog.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/PaymentCollection/EditPaymentCollectionPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/PaymentCollection/PaymentCollectionsView.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Print/SelectPrinterDialog.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Route/CollectionRoutesView.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Route/NewCustomerRoutesView.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Route/SalesRoutesView.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/SalesOrder/EditSalesOrderPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/SalesOrder/EditSalesOrderSummaryDialog.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/SalesOrder/SalesOrdersView.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/SalesOrderReturn/EditSalesOrderReturnPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/SalesOrderReturn/EditSalesOrderReturnSummaryDialog.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/SalesOrderReturn/SalesOrderReturnsView.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/SalesOrderSwap/EditSalesOrderSwapPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/SalesOrderSwap/EditSalesOrderSwapSummaryDialog.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/SalesOrderSwap/SalesOrderSwapsView.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/StockTransfer/EditStockTransferPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/StockTransfer/EditStockTransferSummaryDialog.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/StockTransfer/StockTransfersPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/StockView/StockViewsPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/SyncPage.xaml.g.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.AssemblyInfoInputs.cache
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.AssemblyInfo.cs
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.csproj.CoreCompileInputs.cache
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/XamlC.stamp
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.csproj.CopyComplete
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.dll
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/ref/AIO.IDOS3.Client.Mobile.dll
+/Users/user/Downloads/IDOS3-ODI/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.pdb
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.csproj.AssemblyReference.cache
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/App.xaml.g.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Themes/DarkTheme.xaml.g.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Themes/LightTheme.xaml.g.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/About/AboutPage.xaml.g.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/AccountView.xaml.g.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/AppUpdatePage.xaml.g.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/ChangelogPage.xaml.g.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/LoginPage.xaml.g.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/AppInitPage.xaml.g.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/BillAndReceiptStatement/BillAndReceiptStatementsPage.xaml.g.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Common/ExpanderIconView.xaml.g.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Common/ImagePreviewPage.xaml.g.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Common/LoadingPanelView.xaml.g.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Common/NavigationBarView.xaml.g.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Common/StaticLoadingPanelView.xaml.g.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/MainPage.xaml.g.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/StockTransfer/EditStockTransferPage.xaml.g.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/StockTransfer/EditStockTransferSummaryDialog.xaml.g.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/StockTransfer/StockTransfersPage.xaml.g.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/StockView/StockViewsPage.xaml.g.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/SyncPage.xaml.g.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.AssemblyInfoInputs.cache
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.AssemblyInfo.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.csproj.CoreCompileInputs.cache
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.deps.json
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.dll
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/ref/AIO.IDOS3.Client.Mobile.dll
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.pdb
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Data.dll
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Mobile.Data.SQLiteNet.dll
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/DevExpress.XamarinForms.CollectionView.dll
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/DevExpress.XamarinForms.Core.dll
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/DevExpress.XamarinForms.Editors.dll
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/DevExpress.XamarinForms.Grid.dll
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/DevExpress.XamarinForms.Navigation.dll
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Data.dll
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.dll
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Utilities.dll
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Xamarin.Utilities.dll
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Mobile.Data.SQLiteNet.pdb
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.pdb
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Xamarin.Utilities.pdb
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Data.pdb
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Data.pdb
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Utilities.pdb
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/XamlC.stamp
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.csproj.CopyComplete
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.dll
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/ref/AIO.IDOS3.Client.Mobile.dll
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.pdb
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/AptitudeTest/AptitudePage.xaml.g.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Universities/ApplyUniversities.xaml.g.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Universities/DetailsPage.xaml.g.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Profile/ProfilePage.xaml.g.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Profile/Styles.xaml.g.cs
+/Users/user/Documents/GitHub/MobileApp/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/AptitudeTest/AttemptTest.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.csproj.AssemblyReference.cache
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/App.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Themes/DarkTheme.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Themes/LightTheme.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/About/AboutPage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/AccountView.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/AppUpdatePage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/ChangelogPage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/HelpPage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/LoginPage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/PrivacyPolicy.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/SignUpPage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/TermCondition.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/AppInitPage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/AptitudeTest/AptitudePage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/AptitudeTest/AttemptTest.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/BillAndReceiptStatement/BillAndReceiptStatementsPage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Common/ExpanderIconView.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Common/ImagePreviewPage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Common/LoadingPanelView.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Common/NavigationBarView.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Common/StaticLoadingPanelView.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Consultation/ChatPage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/MainPage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/StockTransfer/EditStockTransferPage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/StockTransfer/EditStockTransferSummaryDialog.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/StockTransfer/StockTransfersPage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/StockView/StockViewsPage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/SyncPage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Universities/ApplyUniversities.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Universities/DetailsPage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.AssemblyInfoInputs.cache
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.AssemblyInfo.cs
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.csproj.CoreCompileInputs.cache
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.dll
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/ref/AIO.IDOS3.Client.Mobile.dll
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.pdb
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.deps.json
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.dll
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/ref/AIO.IDOS3.Client.Mobile.dll
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.pdb
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Data.dll
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Mobile.Data.SQLiteNet.dll
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/DevExpress.XamarinForms.CollectionView.dll
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/DevExpress.XamarinForms.Core.dll
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/DevExpress.XamarinForms.Editors.dll
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/DevExpress.XamarinForms.Grid.dll
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/DevExpress.XamarinForms.Navigation.dll
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Data.dll
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.dll
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Utilities.dll
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Xamarin.Utilities.dll
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Mobile.Data.SQLiteNet.pdb
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.pdb
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Xamarin.Utilities.pdb
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Data.pdb
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Data.pdb
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Utilities.pdb
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/XamlC.stamp
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.csproj.CopyComplete
+/Users/hariza/Documents/GitHub/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/ProfilePage.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.deps.json
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.dll
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/ref/AIO.IDOS3.Client.Mobile.dll
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.pdb
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Data.dll
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Mobile.Data.SQLiteNet.dll
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/DevExpress.XamarinForms.CollectionView.dll
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/DevExpress.XamarinForms.Core.dll
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/DevExpress.XamarinForms.Editors.dll
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/DevExpress.XamarinForms.Grid.dll
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/DevExpress.XamarinForms.Navigation.dll
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Data.dll
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.dll
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Utilities.dll
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Xamarin.Utilities.dll
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Mobile.Data.SQLiteNet.pdb
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.pdb
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Xamarin.Utilities.pdb
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Data.pdb
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Data.pdb
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Utilities.pdb
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.csproj.AssemblyReference.cache
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/App.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Themes/DarkTheme.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Themes/LightTheme.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/About/AboutPage.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/AccountView.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/AppUpdatePage.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/ChangelogPage.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/HelpPage.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/LoginPage.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/PrivacyPolicy.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/ProfilePage.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/SignUpPage.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/TermCondition.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/AppInitPage.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/AptitudeTest/AptitudePage.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/AptitudeTest/AttemptTest.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Common/ExpanderIconView.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Common/ImagePreviewPage.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Common/LoadingPanelView.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Common/NavigationBarView.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Common/StaticLoadingPanelView.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Consultation/ChatPage.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/MainPage.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Profile/ProfilePage.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Profile/Styles.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Universities/ApplyUniversities.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Universities/DetailsPage.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Universities/FilterTemplate.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.AssemblyInfoInputs.cache
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.AssemblyInfo.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.csproj.CoreCompileInputs.cache
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/XamlC.stamp
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.csproj.CopyComplete
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.dll
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/ref/AIO.IDOS3.Client.Mobile.dll
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.pdb
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.csproj.AssemblyReference.cache
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/App.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Themes/DarkTheme.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Themes/LightTheme.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/About/AboutPage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/AccountView.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/AppUpdatePage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/ChangelogPage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/HelpPage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/LoginPage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/PrivacyPolicy.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/ProfilePage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/SignUpPage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Account/TermCondition.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/AppInitPage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/AptitudeTest/AptitudePage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/AptitudeTest/AttemptTest.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Common/ExpanderIconView.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Common/ImagePreviewPage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Common/LoadingPanelView.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Common/NavigationBarView.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Common/StaticLoadingPanelView.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Consultation/ChatPage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/MainPage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Profile/ProfilePage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Profile/Styles.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Universities/ApplyUniversities.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Universities/DetailsPage.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Universities/FilterTemplate.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Universities/UniListTemplate.xaml.g.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.AssemblyInfoInputs.cache
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.AssemblyInfo.cs
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.csproj.CoreCompileInputs.cache
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.dll
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/ref/AIO.IDOS3.Client.Mobile.dll
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.pdb
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.deps.json
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.dll
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/ref/AIO.IDOS3.Client.Mobile.dll
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.pdb
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Data.dll
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Mobile.Data.SQLiteNet.dll
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/DevExpress.XamarinForms.CollectionView.dll
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/DevExpress.XamarinForms.Core.dll
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/DevExpress.XamarinForms.Editors.dll
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/DevExpress.XamarinForms.Grid.dll
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/DevExpress.XamarinForms.Navigation.dll
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Data.dll
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.dll
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Utilities.dll
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Xamarin.Utilities.dll
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Mobile.Data.SQLiteNet.pdb
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Data.SQLiteNet.pdb
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Xamarin.Utilities.pdb
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/AIO.IDOS3.Data.pdb
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Data.pdb
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/bin/Debug/netstandard2.1/Wismapi.Utilities.pdb
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/XamlC.stamp
+/Users/hariza/Documents/GitHub/OEC/OEC-FYP2022/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/AIO.IDOS3.Client.Mobile.csproj.CopyComplete
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Universities/UTMSite.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Consultation/Consultation.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/UniversityInfo/UniversityInfo.xaml.g.cs
+/Users/hariza/Documents/UTM/FYP/OEC_FYP/03.Source/Code/MobileApps/AIO.IDOS3.Client.Mobile/obj/Debug/netstandard2.1/Views/Universities/StudyProgram.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\bin\Debug\netstandard2.1\AIO.IDOS3.Client.Mobile.deps.json
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\bin\Debug\netstandard2.1\AIO.IDOS3.Client.Mobile.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\bin\Debug\netstandard2.1\ref\AIO.IDOS3.Client.Mobile.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\bin\Debug\netstandard2.1\AIO.IDOS3.Client.Mobile.pdb
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\bin\Debug\netstandard2.1\AIO.IDOS3.Data.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\bin\Debug\netstandard2.1\AIO.IDOS3.Mobile.Data.SQLiteNet.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\bin\Debug\netstandard2.1\DevExpress.XamarinForms.CollectionView.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\bin\Debug\netstandard2.1\DevExpress.XamarinForms.Core.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\bin\Debug\netstandard2.1\DevExpress.XamarinForms.Editors.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\bin\Debug\netstandard2.1\DevExpress.XamarinForms.Grid.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\bin\Debug\netstandard2.1\DevExpress.XamarinForms.Navigation.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\bin\Debug\netstandard2.1\Wismapi.Data.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\bin\Debug\netstandard2.1\Wismapi.Data.SQLiteNet.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\bin\Debug\netstandard2.1\Wismapi.Utilities.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\bin\Debug\netstandard2.1\Wismapi.Xamarin.Utilities.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\bin\Debug\netstandard2.1\AIO.IDOS3.Mobile.Data.SQLiteNet.pdb
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\bin\Debug\netstandard2.1\Wismapi.Data.SQLiteNet.pdb
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\bin\Debug\netstandard2.1\Wismapi.Xamarin.Utilities.pdb
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\bin\Debug\netstandard2.1\AIO.IDOS3.Data.pdb
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\bin\Debug\netstandard2.1\Wismapi.Data.pdb
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\bin\Debug\netstandard2.1\Wismapi.Utilities.pdb
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\AIO.IDOS3.Client.Mobile.csproj.AssemblyReference.cache
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\AIO.IDOS3.Client.Mobile.GeneratedMSBuildEditorConfig.editorconfig
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\App.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Themes\DarkTheme.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Themes\LightTheme.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\About\AboutPage.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\Account\AccountView.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\Account\AppUpdatePage.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\Account\ChangelogPage.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\Account\HelpPage.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\Account\LoginPage.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\Account\PrivacyPolicy.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\Account\ProfilePage.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\Account\SignUpPage.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\Account\TermCondition.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\AppInitPage.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\AptitudeTest\AptitudePage.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\AptitudeTest\AttemptTest.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\Common\ExpanderIconView.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\Common\ImagePreviewPage.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\Common\LoadingPanelView.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\Common\NavigationBarView.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\Common\StaticLoadingPanelView.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\Consultation\ChatPage.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\Consultation\Consultation.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\MainPage.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\Profile\ProfilePage.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\Profile\Styles.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\Universities\ApplyUniversities.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\Universities\DetailsPage.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\Universities\FilterTemplate.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\Universities\StudyProgram.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\Universities\UTMSite.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\Views\UniversityInfo\UniversityInfo.xaml.g.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\AIO.IDOS3.Client.Mobile.AssemblyInfoInputs.cache
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\AIO.IDOS3.Client.Mobile.AssemblyInfo.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\AIO.IDOS3.Client.Mobile.csproj.CoreCompileInputs.cache
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\XamlC.stamp
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\AIO.IDOS3.Client.Mobile.csproj.CopyComplete
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\AIO.IDOS3.Client.Mobile.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\ref\AIO.IDOS3.Client.Mobile.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\MobileApps\AIO.IDOS3.Client.Mobile\obj\Debug\netstandard2.1\AIO.IDOS3.Client.Mobile.pdb

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+
+  <assembly fullname="DryIoc">
+    <type fullname="*" />
+  </assembly>
+
+  <assembly fullname="System">
+    <type fullname="*" />
+  </assembly>
+
+  <assembly fullname="mscorlib">
+    <type fullname="*" />
+  </assembly>
+
+  <assembly fullname="Prism">
+    <type fullname="*" />
+  </assembly>
+
+  <assembly fullname="Prism.DryIoc.Forms">
+    <type fullname="*" />
+  </assembly>
+
+  <assembly fullname="AIO.IDOS3.Client.Mobile">
+    <type fullname="*" />
+  </assembly>
+
+  <assembly fullname="DevExpress.XamarinForms.Core">
+    <type fullname="*" />
+  </assembly>
+
+  <assembly fullname="DevExpress.XamarinForms.Editors">
+    <type fullname="*" />
+  </assembly>
+
+  <assembly fullname="DevExpress.XamarinForms.Grid">
+    <type fullname="*" />
+  </assembly>
+
+  <assembly fullname="DevExpress.XamarinForms.Navigation">
+    <type fullname="*" />
+  </assembly>
+
+  <assembly fullname="DevExpress.Xamarin.Android.Editors">
+    <type fullname="*" />
+  </assembly>
+
+  <assembly fullname="DevExpress.Xamarin.Android.Grid">
+    <type fullname="*" />
+  </assembly>
+
+  <assembly fullname="DevExpress.Xamarin.Android.Navigation">
+    <type fullname="*" />
+  </assembly>
+
+  <assembly fullname="DevExpress.XamarinForms.Core.Android">
+    <type fullname="*" />
+  </assembly>
+
+  <assembly fullname="DevExpress.XamarinForms.Editors.Android">
+    <type fullname="*" />
+  </assembly>
+
+  <assembly fullname="DevExpress.XamarinForms.Grid.Android">
+    <type fullname="*" />
+  </assembly>
+
+  <assembly fullname="DevExpress.XamarinForms.Navigation.Android">
+    <type fullname="*" />
+  </assembly>
+    
+  <assembly fullname="Prism.Forms">
+    <type fullname="*" />
+  </assembly>
+
+  <assembly fullname="Xamarin.Forms.Maps">
+    <type fullname="*" />
+  </assembly>
+
+  <assembly fullname="Newtonsoft.Json">
+    <type fullname="*" />
+  </assembly>
+
+  <assembly fullname="Shiny.Core">
+    <type fullname="*" />
+  </assembly>
+
+  <assembly fullname="Shiny.Locations">
+    <type fullname="*" />
+  </assembly>
+    
+</linker>

@@ -1,0 +1,10 @@
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Web\bin\Debug\netcoreapp3.1\Wismapi.Web.deps.json
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Web\bin\Debug\netcoreapp3.1\Wismapi.Web.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Web\bin\Debug\netcoreapp3.1\Wismapi.Web.pdb
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Web\obj\Debug\netcoreapp3.1\Wismapi.Web.csproj.AssemblyReference.cache
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Web\obj\Debug\netcoreapp3.1\Wismapi.Web.GeneratedMSBuildEditorConfig.editorconfig
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Web\obj\Debug\netcoreapp3.1\Wismapi.Web.AssemblyInfoInputs.cache
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Web\obj\Debug\netcoreapp3.1\Wismapi.Web.AssemblyInfo.cs
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Web\obj\Debug\netcoreapp3.1\Wismapi.Web.csproj.CoreCompileInputs.cache
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Web\obj\Debug\netcoreapp3.1\Wismapi.Web.dll
+F:\HARIZAH SYAWAL\UTM\fyp\OEC_FYP\03.Source\Code\wismapi_packages\Wismapi.Web\obj\Debug\netcoreapp3.1\Wismapi.Web.pdb

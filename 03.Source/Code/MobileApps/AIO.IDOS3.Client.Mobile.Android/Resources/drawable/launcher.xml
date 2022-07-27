@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item>
+    <bitmap
+      android:src="@mipmap/launcher_background"
+      android:tileMode="disabled"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"/>
+  </item>
+  <item>
+    <bitmap
+      android:src="@mipmap/launcher_foreground"
+      android:tileMode="disabled"
+      android:gravity="center"/>
+  </item>
+  <item android:top="40dp">
+    <bitmap
+      android:src="@mipmap/launcher_company_logo"
+      android:tileMode="disabled"
+      android:gravity="top|center"/>
+  </item>
+</layer-list>

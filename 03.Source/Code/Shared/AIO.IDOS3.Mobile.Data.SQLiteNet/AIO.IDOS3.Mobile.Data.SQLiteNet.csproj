@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="MobileDataServiceContextCsdl.xml" />
+    <None Remove="Syncfusion.Xamarin.Buttons" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="MobileDataServiceContextCsdl.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\wismapi_packages\Wismapi.Data.SQLiteNet\Wismapi.Data.SQLiteNet.csproj" />
+    <ProjectReference Include="..\..\wismapi_packages\Wismapi.Data\Wismapi.Data.csproj" />
+    <ProjectReference Include="..\AIO.IDOS3.Data\AIO.IDOS3.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Syncfusion.Xamarin.Buttons" Version="20.1.0.48" />
+  </ItemGroup>
+</Project>

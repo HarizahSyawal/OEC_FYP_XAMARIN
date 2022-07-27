@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "8GFIx8XXuElqNivtg+l5wibnFn/FktHOtJGRrb9HURTc1BuAUDgrvCifo8t9JTM7d1eYCviuZoiOe9hDu+yv2g==",
+  "success": true,
+  "projectFilePath": "F:\\HARIZAH SYAWAL\\UTM\\fyp\\OEC_FYP\\03.Source\\Code\\Shared\\AIO.IDOS3.Data\\AIO.IDOS3.Data.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BAN.NET\\.nuget\\packages\\syncfusion.licensing\\20.1.0.48\\syncfusion.licensing.20.1.0.48.nupkg.sha512",
+    "C:\\Users\\BAN.NET\\.nuget\\packages\\syncfusion.xamarin.buttons\\20.1.0.48\\syncfusion.xamarin.buttons.20.1.0.48.nupkg.sha512",
+    "C:\\Users\\BAN.NET\\.nuget\\packages\\syncfusion.xamarin.core\\20.1.0.48\\syncfusion.xamarin.core.20.1.0.48.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

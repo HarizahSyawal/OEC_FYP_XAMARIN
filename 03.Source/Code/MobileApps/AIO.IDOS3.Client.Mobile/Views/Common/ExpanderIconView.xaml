@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentView
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:xct="clr-namespace:Xamarin.CommunityToolkit.UI.Views;assembly=Xamarin.CommunityToolkit"
+    xmlns:effects="clr-namespace:AIO.IDOS3.Client.Mobile.Effects"
+    
+    x:Class="AIO.IDOS3.Client.Mobile.Views.ExpanderIconView">
+
+    <StackLayout>
+
+        <Image HorizontalOptions="End" VerticalOptions="Start" Source="icon_expand_24dp" effects:TintImageEffect.TintColor="{StaticResource ExpanderIconTintColor}">
+            <Image.Triggers>
+                <DataTrigger TargetType="Image" Binding="{Binding Source={RelativeSource AncestorType={x:Type xct:Expander}}, Path=IsExpanded}" Value="True">
+                    <Setter Property="Source" Value="icon_collapse_24dp"/>
+                </DataTrigger>
+            </Image.Triggers>
+            <Image.Effects>
+                <effects:TintImageEffect />
+            </Image.Effects>
+        </Image>
+
+    </StackLayout>
+
+</ContentView>

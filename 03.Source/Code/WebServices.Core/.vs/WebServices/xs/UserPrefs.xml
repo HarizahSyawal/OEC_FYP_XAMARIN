@@ -1,0 +1,44 @@
+﻿<Properties StartupConfiguration="{24AC3780-735D-496D-A37E-1DDA3452BA67}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Shared/AIO.IDOS3.Mobile.Data.SQLiteNet/vUniversity/mvUniversitySyncProvider.cs">
+    <Files>
+      <File FileName="../Shared/AIO.IDOS3.Mobile.Data.SQLiteNet/vUniversity/Generated/ImvUniversity.generated.cs" Line="9" Column="2" IsPinned="True" />
+      <File FileName="../Shared/AIO.IDOS3.Mobile.Data.SQLiteNet/vUniversity/mvUniversitySyncProvider.cs" Line="20" Column="35" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebServices" expanded="True">
+            <Node name="Shared" expanded="True">
+              <Node name="AIO.IDOS3.Data" expanded="True">
+                <Node name="Views" expanded="True">
+                  <Node name="vUniversity" expanded="True">
+                    <Node name="Generated" expanded="True" />
+                  </Node>
+                  <Node name="vUser" expanded="True">
+                    <Node name="Generated" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="AIO.IDOS3.Mobile.Data.SQLiteNet" expanded="True">
+                <Node name="vUniversity" expanded="True">
+                  <Node name="Generated" expanded="True" />
+                  <Node name="mvUniversitySyncProvider.cs" selected="True" />
+                </Node>
+                <Node name="vUser" expanded="True">
+                  <Node name="Generated" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.AIO.IDOS3.Web.Services PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

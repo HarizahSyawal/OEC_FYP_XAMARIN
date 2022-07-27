@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<views:PageBase
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:prism="http://prismlibrary.com"
+    xmlns:dxg="clr-namespace:DevExpress.XamarinForms.DataGrid;assembly=DevExpress.XamarinForms.Grid"
+    xmlns:dxe="clr-namespace:DevExpress.XamarinForms.Editors;assembly=DevExpress.XamarinForms.Editors"
+    xmlns:sh="http://sharpnado.com"
+    xmlns:xfs="clr-namespace:XFShimmerLayout.Controls;assembly=XFShimmerLayout"
+    xmlns:views="clr-namespace:AIO.IDOS3.Client.Mobile.Views"
+    xmlns:viewModels="clr-namespace:AIO.IDOS3.Client.Mobile.ViewModels"
+    
+    x:Class="AIO.IDOS3.Client.Mobile.Views.AptitudeTest.AptitudePage"
+    x:TypeArguments="viewModels:AptitudePageViewModel"
+    x:Name="page"
+    prism:ViewModelLocator.AutowireViewModel="True"
+    Title="{Binding Title}"
+    NavigationPage.HasNavigationBar="False"
+    BackgroundColor="{StaticResource PageBackgroundColor}">
+
+    <AbsoluteLayout x:DataType="viewModels:AptitudePageViewModel">
+
+        <StackLayout AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All">
+
+            <sh:Shadows VerticalOptions="Start" Margin="0,0,0,0">
+                <sh:Shadows.Shades>
+                    <sh:ImmutableShades>
+                        <sh:Shade BlurRadius="6" Opacity="1" Offset="0,4" Color="#b4b4b4"/>
+                    </sh:ImmutableShades>
+                </sh:Shadows.Shades>
+
+                <Frame CornerRadius="0" Padding="10" BackgroundColor="White">
+                    <StackLayout HorizontalOptions="FillAndExpand" Orientation="Horizontal">
+                        <dxe:SimpleButton Style="{StaticResource NavigationBarBackButton}" Command="{Binding PerformBackButtonPressedCommand}"/>
+                        <Label Text="{Binding Title}" Style="{StaticResource NavigationBarTitle}"/>
+                    </StackLayout>
+                </Frame>
+            </sh:Shadows>
+            
+            <ScrollView HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+
+                <Grid Padding="16,10,16,10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                          <Label Grid.Row="0" FontSize="22">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="About The Test" FontAttributes="Bold" FontSize="22"/>
+                                <Span Text=" "/>
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                    <Label Grid.Row="1" Style="{StaticResource TextEditDefaultStyle}"      
+                                  TextColor="{StaticResource EditBaseReadOnlyTextColor}"
+                                  Text="Using The Holland Code theory by psychologist John Holland, this will help you determine which course you should take in university ! After Answering the questions, you can see your results"/>
+
+                    <Label Grid.Row="2" Padding="0,10,0,10"
+                     FontSize="22">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="The Result" FontAttributes="Bold" FontSize="22"/>
+                                <Span Text=" "/>
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                     <Label Grid.Row="3">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="The test will show how suitable are you in these 6 career categories." TextColor="{StaticResource EditBaseReadOnlyTextColor}"/>
+                                <Span Text=" "/>
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                    <Label Grid.Row="4">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="1.Realistic :" FontAttributes="Italic" TextColor="{StaticResource EditBaseReadOnlyTextColor}"/>
+                                <Span Text=" "/>
+                                <Span Text="• Agriculture
+• Health Assistant
+• Computers
+• Construction
+• Mechanic/Machinist
+• Engineering
+• Food and Hospitality"/>
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                 <Label Grid.Row="5">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="2.Investigative :" FontAttributes="Italic" TextColor="{StaticResource EditBaseReadOnlyTextColor}"/>
+                                <Span Text=" "/>
+                                <Span Text="• Marine Biology
+• Engineering
+• Chemistry
+• Zoology
+• Medicine/Surgery
+• Consumer Economics
+• Psychology"/>
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label Grid.Row="6">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="3.Artistic :" FontAttributes="Italic" TextColor="{StaticResource EditBaseReadOnlyTextColor}"/>
+                                <Span Text=" "/>
+                                <Span Text="• Communications
+• Cosmetology
+• Fine and Performing Arts
+• Photography
+• Radio and TV
+• Interior Design
+• Architecture"/>
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                   <Label Grid.Row="7">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="4.Social :" FontAttributes="Italic" TextColor="{StaticResource EditBaseReadOnlyTextColor}"/>
+                                <Span Text=" "/>
+                                <Span Text="• Counseling
+• Nursing
+• Physical Therapy
+• Travel
+• Advertising
+• Public Relations
+• Education"/>
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                 <Label Grid.Row="8">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="5.Enterprising :" FontAttributes="Italic" TextColor="{StaticResource EditBaseReadOnlyTextColor}"/>
+                                <Span Text=" "/>
+                                <Span Text="• Counseling
+• Nursing
+• Physical Therapy
+• Travel
+• Advertising
+• Public Relations
+• Education"/>
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                 <Label Grid.Row="9">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <FormattedString.Spans>
+                                <Span Text="6.Conventional :" FontAttributes="Italic" TextColor="{StaticResource EditBaseReadOnlyTextColor}"/>
+                                <Span Text=" "/>
+                                <Span Text="• Accounting
+• Court Reporting
+• Insurance
+• Administration
+• Medical Records
+• Banking
+• Data Processing"/>
+                            </FormattedString.Spans>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                </Grid>
+
+            </ScrollView>
+
+            <Label HorizontalOptions="FillAndExpand" VerticalOptions="End" Margin="12,0,12,0" TextColor="Red" IsVisible="{Binding Model.IsError}" Text="{Binding Model.ErrorMessage}"/>
+
+            <BoxView VerticalOptions="End" Margin="0" HeightRequest="1" BackgroundColor="{StaticResource LineColor}"/>
+                
+            <StackLayout VerticalOptions="End" Margin="12,12,12,12" Orientation="Horizontal">
+                <dxe:SimpleButton HorizontalOptions="FillAndExpand" Style="{StaticResource SimpleButtonDefaultStyle}"                                                                    
+                                  Text="Take a New Test"                                          
+                                  Command="{Binding PerformAttemptTestCommand}">
+                    <dxe:SimpleButton.Triggers>
+                        <DataTrigger TargetType="dxe:SimpleButton" Binding="{Binding IsBusy}" Value="True">
+                            <Setter Property="IsEnabled" Value="False"/>
+                        </DataTrigger>
+                    </dxe:SimpleButton.Triggers>
+                </dxe:SimpleButton>
+                                <dxe:SimpleButton HorizontalOptions="FillAndExpand" Style="{StaticResource SimpleButtonDefaultStyle}"                                                                    
+                                  Text="Find a Campus"                                          
+                                  Command="{Binding PerformFindCampusCommand}">
+                    <dxe:SimpleButton.Triggers>
+                        <DataTrigger TargetType="dxe:SimpleButton" Binding="{Binding IsBusy}" Value="True">
+                            <Setter Property="IsEnabled" Value="False"/>
+                        </DataTrigger>
+                    </dxe:SimpleButton.Triggers>
+                </dxe:SimpleButton>
+            </StackLayout>
+
+        </StackLayout>
+        
+        <views:LoadingPanelView AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" IsVisible="{Binding IsBusy}"/>
+
+    </AbsoluteLayout>
+    
+</views:PageBase>

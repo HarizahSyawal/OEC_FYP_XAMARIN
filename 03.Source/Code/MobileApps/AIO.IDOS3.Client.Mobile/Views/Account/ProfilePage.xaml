@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView" 
+    x:Class="AIO.IDOS3.Client.Mobile.Views.Account.ProfilePage"
+    Title="Profile"
+    BackgroundColor="White">
+       <ContentPage.Content>
+        <Grid HorizontalOptions="FillAndExpand" RowSpacing="0" VerticalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="300"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+                <RowDefinition Height="1"></RowDefinition>
+                <RowDefinition Height="Auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Image Grid.Row="0" Opacity="0.8" HeightRequest="350" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Source="https://expertphotography.b-cdn.net/wp-content/uploads/2020/08/social-media-profile-photos-3.jpg" Aspect="AspectFill"></Image>
+            
+            <Grid Grid.Row="0" HeightRequest="105" VerticalOptions="EndAndExpand" BackgroundColor="Black" Opacity="0.7">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <pancake:PancakeView Grid.Column="0" CornerRadius="50" BackgroundColor="White" HeightRequest="80" WidthRequest="80" Padding="5" 
+                           HorizontalOptions="Start" 
+                           VerticalOptions="CenterAndExpand">
+                    <pancake:PancakeView.Shadow>
+                        <pancake:DropShadow Color="Black" BlurRadius="30" Offset="0,0"/>
+                    </pancake:PancakeView.Shadow>
+                    <Image Source="https://expertphotography.b-cdn.net/wp-content/uploads/2020/08/social-media-profile-photos-3.jpg" Aspect="AspectFill" Margin="-10"/>
+                </pancake:PancakeView>
+                <Label Text="User"  Grid.Column="1" Margin="10,30,0,0" VerticalOptions="Start" TextColor="White" FontSize="20"  ></Label>
+                <Label Text="sharizah@graduate.utm.my" Grid.Column="1" Margin="10,60,0,0" TextColor="White" FontSize="12"  ></Label>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
